@@ -1,0 +1,16 @@
+auto
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fff
+*.fls
+*.html
+*.log
+*.sublime-*
+*.gz
+*.ttt
+*.pdf
+*.bib
+old_cutup
+old_intact
