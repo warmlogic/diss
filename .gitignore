@@ -10,5 +10,7 @@ auto
 *.log
 *.gz
 *.ttt
-*.pdf
+diss*.pdf
 *.*~
+*.cb
+*.cb2
