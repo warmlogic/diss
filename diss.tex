@@ -1,0 +1,130 @@
+%\documentclass[defaultstyle,11pt]{thesis}
+% \documentclass[doc]{apa6}
+\documentclass[man,floatsintext,draftfirst,12pt]{apa6}
+% \documentclass[man,floatsintext,12pt]{apa6}
+% \documentclass[man]{apa}
+%\documentclass[jou]{apa}
+%\usepackage{pdfsync}
+%\documentclass[12pt]{article}
+\usepackage{apacite} % \cite<prefix>[suffix]{key1,key2}, \citeA, \citeNP,
+                     % \fullcite, \shortcite, \citeyear, \citeauthor, \nocite
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{soul} % \hl \ul \st \caps \so
+%\usepackage{amsmath}
+%\usepackage{url}
+%\usepackage{epstopdf}
+% \usepackage[margin=1.0in]{geometry}
+%\usepackage[left=1in,top=1in,right=1in,bottom=1in,nohead]{geometry}
+% \usepackage{setspace}
+%\doublespacing
+% \setstretch{1.85}
+%\renewcommand{\baselinestretch}{1.85}
+% \usepackage{multirow}
+\usepackage{float}
+
+\usepackage{changebar}
+\nochangebars
+
+\synctex=1
+
+\pdfinfo{
+   /Author (Matthew V. Mollison)
+   /Title (Dissertation)
+   /Subject (EEG correlates of the spacing effect)
+   /Keywords (Spacing effect, SME, EEG, ERP,
+   oscillations, encoding, learning)
+}
+
+   % /Keywords (Subsequent memory effects, SME, Dm, EEG, ERP,
+   % oscillations, encoding, learning)
+
+% \title{Distributed practice and distributed representations:
+%   Successful memory formation toward a predictive model}
+
+\title{Distributed practice and distributed representations:
+
+Investigating the spacing effect using EEG}
+
+\shorttitle{Dissertation}
+
+% \rightheader{Dissertation}
+
+\leftheader{Mollison}
+
+\author{Matthew V. Mollison}
+
+\affiliation{University of Colorado Boulder}
+
+% \abstract{%
+%   %\singlespacing
+
+%   Abstract goes here.
+  
+%   \vspace{0.1in}
+
+%   \textbf{Keywords: spacing effect; subsequent memory effects; EEG; ERP;
+%    oscillations; encoding; learning}
+
+% % subsequent memory effects; encoding; learning; levels of processing; transfer-appropriate processing; EEG; ERP; oscillations; machine learning; pattern classification; multivariate
+
+% }
+
+% \authornote{~}
+
+\ifapamodeman{%
+  \note{
+    \begin{flushleft}
+      Contact\\
+      University of Colorado Boulder, Department of Psychology \& Neuroscience\\
+      Muenzinger D244, 345 UCB, Boulder, CO 80309\\
+      e-mail: matthew.mollison@colorado.edu\\
+      phone: (617)~899--8317\\
+      fax: (303)~492--2967\\
+      Version of \today
+    \end{flushleft}
+  }}
+{ %else, i.e., in jou and doc mode
+  % \note{Submitted: \today}
+}
+
+% \journal{Manuscript in preparation.}
+
+% \volume{Please do not quote or cite without permission.}
+
+% \ccoppy{Version of \today.}
+
+% \copnum{Comments welcome.}
+
+% Quoting directly from our department's requirements should give an
+% overview of what I need to accomplish, though there are no specific
+% format or length requirements, as they are to be discussed with my
+% advisor: ``Typically the proposal will include introduction,
+% methods, and preliminary results for any completed experiments;
+% along with methods, hypotheses, and predictions for planned
+% experiments.''  That is, it will be basically structured like an
+% experimental psychology paper, albeit without many results. I will
+% probably aim for 10 to 15 pages, single-spaced and not including the
+% abstract or references, but again, length is not of much concern.
+
+\begin{document}
+\maketitle
+
+\input specific_aims.tex
+\input background_sig.tex
+\input dependent_measures.tex
+% \input research_prelim.tex
+\input research_prop_general.tex
+\input exp_1.tex
+\input research_prop_exp.tex
+\input exp_2.tex
+%\input discussion.tex
+% \input exp_3.tex
+\input general_discussion.tex
+% \input future_directions.tex
+
+\bibliography{/Users/matt/Library/texmf/bibtex/bib/mvm_tex/mvm}
+% \bibliography{mvm}
+\bibliographystyle{apacite}
+
+\end{document}

@@ -1,0 +1,162 @@
+% !TEX root = ./diss_proposal.tex
+
+\begin{center}
+% \singlespacing
+
+\vspace{5cm}
+
+``You can get a good deal from rehearsal,\\
+If it just has the proper dispersal.\\
+You would just be an ass,\\
+To do it \textit{en masse},\\
+Your remembering would turn out much worsal.''\\
+~\\
+--Ulric Neisser,\\
+{\small quoted in ``Retrieval practice and the maintenance of knowledge'' \cite{Bjor1988}}
+\end{center}
+
+\newpage
+
+\section{Introduction}
+
+% Describe: Need, approach, benefits (use cases and broader impacts),
+% context
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% briefly introduce the spacing effect
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The Latin phrase \textit{repetitio est mater studiorum} tells us that ``repetition is the mother of learning,'' and psychological research shows us that how we distribute those repetitions has an important impact on memory performance.  From the beginnings of empirical research on memory it has been shown that distributed practice, with gaps between study sessions, leads to better long-term memory performance than massed practice.  Ebbinghaus documented this effect and wrote, ``With any considerable number of repetitions a suitable distribution of them over a space of time is decidedly more advantageous than the massing of them at a single time'' \cite[p.~89]{Ebbi1885}.  This seemingly simple result is known as the spacing effect, or the distributed practice effect, and has been the subject of extensive research over recent decades \cite<for reviews, see>{CepeEtal2006,CepeEtal2009,DelaEtal2010}.
+
+% Ebbinghaus, Chapter VIII: Retention as a Function of Repeated Learning
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Practical implications
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \subsection{Practical implications of the spacing effect}
+
+The spacing effect is robust and has been demonstrated in studies that employ various memory tests including free recall, cued recall, recognition, and frequency judgments.  It is found not only in laboratory studies but also in real-world training and learning settings.  Research on this topic could have important practical consequences regarding how information is presented in applied settings such as classrooms \cite{CarpEtal2012,DunlEtal2013,KhajEtal2014} and how students are instructed to study on their own, though this chance to enhance memory in applied settings depends on effectively utilizing the knowledge gained from research \cite{Demp1988,PashEtal2007}.
+
+The reasons why this almost ubiquitous effect occurs are still debated and levels of prominence for different theories have changed over the years.  Three theories have come to dominate, each of which has been supported by behavioral results and different verbal and mathematical models of learning.  These three theories are typically known as deficient processing, contextual variability, and study-phase retrieval.
+
+% \textbf{Deficient processing} essentially posits that when an item is repeated immediately (massed), attention to the second presentation decreases because the item is already familiar and in working memory; a spaced item does not have this issue \cite{Gree1989a,Hint1974}.  It has also been proposed that semantic and structural priming plays a role in the spacing effect under deficient processing; items are not processed deeply if they are still active \cite{Chal1993,RussEtal1998}.  \textbf{Contextual variability} (also called encoding variability) associates each presentation with a slowly drifting contextual state, and items presented at greater spacings (lags) are subsequently recalled better due to having more distinctive contextual cues for retrieval, which relies on a match between study and test contexts \cite{Bowe1972,Este1955a,Glen1979,Melt1970,TulvThom1973}.  \textbf{Study-phase retrieval} assumes that a study repetition recovers prior presentation(s) of that stimulus and any associated contextual information.  Given that retrieval occurs (a requirement for a spacing advantage), this information becomes associated with the repeated item and provides additional cues that can be used during subsequent retrieval \cite{Gree1989a,ThioDAgo1976,ToppBloo2002}.  As with contextual variability, more varied cues will become associated as the spacing of a repetition increases; additionally, the re-encoded memory strength is incremented proportional to the lag.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% what's the issue;
+% use the paper intro cliche: "not well understood"
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+While behavioral studies and modeling efforts have done a commendable job of investigating the spacing effect during decades of research, few publications have investigated its neural correlates.  Since these theories emphasize several different processes underlying the spacing effect, it is proposed that each may be supported or challenged by examining how particular patterns of neural activity during spaced and massed learning lead to different memory outcomes, thereby revealing the true mechanisms behind why distributed practice is so effective.  Note that the theories are not mutually exclusive.
+
+Ancillary to this main goal, even if decisive conclusions cannot be drawn regarding what is truly at the root of spacing effects, the proposed research will describe the neural correlates of the spacing effect that align with each hypothesis.  If existing mathematical models that account for the spacing effect are accurate (reviewed later), this will likely involve interactions between the theories.  Thus, this proposal focuses on gaining a better understanding of the neural processes involved during spaced and massed learning episodes as recorded in the electroencephalogram (EEG).  The present and proposed experiments will use EEG to infer the relative involvement of various cognitive factors, thereby providing evidence relevant to assessing the theories.
+
+% There are many questions to ask concerning the neural correlates of distributed and massed practice.  For example, are prior learning episodes reactivated (reinstated) during study repetitions, or is a new memory trace formed?  Does this reinstatement occur during a test trial, and is it modulated by the spacing of the study trials?  The possibility of reinstatement could be investigated by comparing the similarity of the patterns of EEG activity between these separate events.  Further, how do the patterns of neural activity change as a function of spacing (e.g., massed \textit{vs.} different inter-study lags, etc.)?  What patterns are seen when spacing is optimal?  The answers to these questions are presently unclear, particularly in relation to patterns in EEG recordings.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BONEYARD!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Precise differences between SPR (Greene) and CV/EV (ToppBloo2002)
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \citeA{ToppBloo2002} could be interpreted as saying Greene's SPR is actually a CV account, but I don't think this is totally true. It is storing the contextual change, not the contextual elements from both presentations.
+
+% \hl{Do I need to differentiate between contextual variability and encoding variability? Maybe the former deals with drifting contextual states that may or may not be reinstated, while the latter deals with item-level variability (e.g., LOP effects)?} \citeA{ToppBloo2002} call Greene's SPR ``encoding variability'' to focus on the underlying mechanism, but it still relies on retrieval.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Why a multi-session experiment is needed
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% As noted by \citeA{CepeEtal2009}, most research on the spacing effect
+% has compared distributed and massed practice within a single session
+% with relatively short periods of time separating even the spaced
+% conditions, including those that involve neural recordings \cite<e.g.,>{VanSEtal2007,XueEtal2011}. Compared to studies that test long-term memory over much longer periods of time, this is not as informative
+% for theories of learning for a few reasons.  Not only does real-world
+% learning tend to take place across multiple episodes that are
+% distributed in time, but very short delays between study repetitions can
+% lead to neural repetition suppression. Additionally, research has
+% shown that there are differences in spacing effects for distributed
+% practice within single- and multiple-session learning paradigms \cite{KangEtal2014}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Lag effect
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% An effect intimately related to distributed practice is that subsequent memory performance improves as the spacing between repetitions increases; this gradation in spacing effects is called the lag effect \cite{Melt1967}. Of note, it seems to be the temporal space between repetitions and not simply the number of intervening items that creates the spacing effect \cite{ToppBloo2002}. Lag length and performance are only correlated to an extent; because performance decreases at especially long lags, this makes the lag effect an inverted U-shape function \cite{AtkiShif1968,CepeEtal2009,ToppBloo2002}. Studies have also noted that the length of the retention interval is also an important factor for determining the most beneficial spacing \cite{Glen1976,Glen1977,Glen1979}. A comprehensive meta-analysis by \citeA{CepeEtal2006} found that the optimal spacing is typically around 10--20\% of the retention interval, though this will depend on the material being learned \cite<see also>{PashEtal2007,MozeEtal2009,KangEtal2014}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% What does RSA measure?
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% How do we know if RSA is measuring item reinstatement (which should be similar) or contextual reinstatement (which the theory says should be different), or even the active processes? Can we compare classifier weights across repetitions?  Temporal evolution (autocorrelation of features across contiguous trials; ignore aspects related to context)?  Can we even separate item and context?
+
+% Possible way to select item-related features: Train classifier on PCA-derived feature vectors (each trial's loading across PCs) to differentiate face/house (item) activity. Weights reveal which features are related to item activity, while context should get regularized towards zero. Or, correlate features across trials within a category (face or house) and keep the correlated ones; but how do you know that a feature in one trial corresponds to a feature in another trial? Didn't \citeA{MannEtal2011} need to make the same assumption?
+
+% Can I do this analysis? If study-phase retrieval fails, as defined by incorrect classification, then the first presentation was not retrieved; therefore, there should be no spacing effect for these items. Could also define SPR by neural similarity $<=0$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Global neural pattern
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% can looking at the global pattern of neural activity be like ``seeing the forest for the trees'' (where ERP component research is not being able to see the big picture?) \cite{DaviEtal2014}??
+
+
+%%%%%%%
+% Other
+%%%%%%%
+
+% For example, \citeA{Bahr1979} had participants learn English--Spanish word pairs (found in \cite{PavlAnde2005}). Also check out \cite{BahrHall2005}.
+
+% \hl{When it really gets down to the reasons why the spacing effect occurs, this proposal really could be more about the neural evidence for the Context Maintenance and Retrieval (CMR) model} \cite{LohnKaha2014b,PolyEtal2009}.
+% I actually think the MCM model \cite{MozeEtal2009} and ACT-R \cite{PavlAnde2005} are very important to test as well.
+
+
+
+% massed practice = the same amount of practice in fewer massed trials
+% or sessions.
+
+% different outcomes: RSA
+
+% The deficient processing account should have difficulty in explaining
+% how the spacing effect occurs in experiments with multiple sessions,
+% as opposed to spacing within a single sessions.  Thus, at best this
+% seems like an incomplete explanation of why the spacing or distributed practice effect occurs.
+
+% The results of \citeA{VanSEtal2007} support the deficient processing
+% theory, and we could determine whether these effects occur on longer
+% time scales.
+
+% relate to old/new repetition effect (FN400 and P O/N)
+
+% My dissertation will be based around the topic of understanding the
+% neural correlates of successful memory encoding (or learning) by
+% recording EEG during a paradigm that consists of study--test trails.
+% The questions I will ask will be based on identifying when learning
+% has occurred in the brain (using subsequent memory effect analyses)
+% and analyzing patterns of brain activity across repeated stimulus
+% exposures (multiple studying/learning trials). I want to use
+% analytical approaches that involve pattern classification of EEG
+% data (are there commonalities across successfully encoded trials?),
+% and would like to be able to say something about how to improve
+% learning techniques or why particular learning techniques work,
+% specifically from a cognitive neuroscientific perspective. I have
+% not planned my experiments yet, but I am imagining using a spacing
+% effect paradigm.
+
+
+% Particular patterns of activity in EEG recordings have been associated
+% with successfully encoding information in memory and retrieving
+% information from memory.  These patterns can be thought of as the
+% neural representations of the information.  A question that has
+% recently been examined using fMRI is how the stability of these
+% representations across time relates to subsequent memory retrieval.
+
+% While attentional and semantic effects mainly speak to the deficient processing account, semantic activity and memory apply to all accounts (depending on the analysis).
+
+% \hl{(Therefore, this proposal must attempt to strategically isolate effects related to one or two accounts within each experiment.)}
+

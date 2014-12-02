@@ -1,0 +1,690 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"end",
+				"endTime"
+			],
+			[
+				"class",
+				"class_member_mask"
+			],
+			[
+				"dist",
+				"distance"
+			],
+			[
+				"tz",
+				"tz_convert"
+			],
+			[
+				"within",
+				"withinBoundingBox"
+			],
+			[
+				"searchL",
+				"searchLimitMin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "diss.tex",
+			"settings":
+			{
+				"buffer_size": 3696,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "specific_aims.tex",
+			"settings":
+			{
+				"buffer_size": 13841,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "background_sig.tex",
+			"settings":
+			{
+				"buffer_size": 51080,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dependent_measures.tex",
+			"settings":
+			{
+				"buffer_size": 18849,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "research_prop_general.tex",
+			"settings":
+			{
+				"buffer_size": 2709,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "exp_1.tex",
+			"settings":
+			{
+				"buffer_size": 76323,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "research_prop_exp.tex",
+			"settings":
+			{
+				"buffer_size": 17826,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "exp_2.tex",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "general_discussion.tex",
+			"settings":
+			{
+				"buffer_size": 64,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack re",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/matt/Documents/papers/diss/research_prelim.tex",
+		"/Users/matt/Documents/papers/diss/dependent_measures.tex",
+		"/Users/matt/Documents/papers/diss/diss.tex",
+		"/Users/matt/Documents/papers/diss/research_prop_exp.tex",
+		"/Users/matt/Documents/papers/diss/research_prop_general.tex",
+		"/Users/matt/Documents/papers/diss/specific_aims.tex",
+		"/Users/matt/Documents/papers/diss/background_sig.tex",
+		"/Users/matt/src/happening/select_data.py",
+		"/Users/matt/src/happening/searchForGeo_twitter.py",
+		"/Users/matt/src/happening/streamFromGeo_twitter.py",
+		"/Users/matt/src/happening/twitter_tools.py",
+		"/Users/matt/src/happening/plot_data.py",
+		"/Users/matt/src/foodGrouper/foodgroups.py",
+		"/Users/matt/src/happening/datetime_example.py",
+		"/Users/matt/src/happening/twitter_search.py",
+		"/Users/matt/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/matt/Documents/papers/diss_proposal/background_sig.tex",
+		"/Users/matt/Documents/papers/diss_proposal/dependent_measures.tex",
+		"/Users/matt/src/google-python-exercises/logpuzzle/logpuzzle.py",
+		"/Users/matt/src/google-python-exercises/babynames/babynames.py",
+		"/Users/matt/src/google-python-exercises/babynames/baby",
+		"/Users/matt/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/matt/Documents/papers/diss_proposal/diss_proposal.tex",
+		"/Users/matt/Desktop/hypothesis workthrough.txt",
+		"/Users/matt/Library/Application Support/Sublime Text 2/Packages/CheckBounce/README.mdown",
+		"/Users/matt/Library/Application Support/Sublime Text 2/Packages/CheckBounce/CheckBounce.sublime-settings",
+		"/Users/matt/Library/Application Support/Sublime Text 2/Packages/User/CheckBounce.sublime-settings",
+		"/Users/matt/Documents/papers/diss_proposal/XueEtal2010_review",
+		"/Users/matt/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/Default (OSX).sublime-keymap",
+		"/Users/matt/Library/Application Support/Sublime Text 2/Packages/User/LaTeXTools Preferences.sublime-settings",
+		"/Users/matt/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/LaTeXTools Preferences.sublime-settings",
+		"/Users/matt/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/README.markdown",
+		"/Users/matt/Documents/papers/diss_proposal/diss_proposal.pdf",
+		"/Users/matt/Documents/papers/diss_proposal/diss_proposal.sublime-project",
+		"/Users/matt/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pacific",
+			"sql=",
+			"sql =",
+			"insert",
+			"print_de",
+			"print_debug",
+			"dbcon",
+			"print_debug",
+			"class",
+			"print",
+			"loads",
+			"json",
+			"dumps",
+			"%d",
+			"execute",
+			"dbcon",
+			"puttweet",
+			"dbcon",
+			"insert into",
+			"con",
+			"np.prod",
+			"nbins",
+			"np.diff",
+			"nbins",
+			"dbauth",
+			"twitstreamgeo",
+			"hr",
+			"hour",
+			"line",
+			"for txt in activity['",
+			"cleanTextGet",
+			"getwordfreq",
+			"split",
+			"diffthresh",
+			"plt",
+			"clusterthose",
+			"replace",
+			"errlog",
+			"pdb.set",
+			"coordi",
+			"heatmap",
+			"make_hist",
+			".ix",
+			"clusterThose",
+			"scaler",
+			"figsetup",
+			"hist",
+			"_base",
+			"_prev",
+			"nearby",
+			"htmlpars",
+			"json",
+			"streamfrom",
+			"nbins",
+			"make_hist",
+			"df.loc",
+			"found_activity",
+			"distance",
+			"return",
+			"selectactivityfrom",
+			"line",
+			"fri",
+			"make_hist",
+			"dbscan",
+			"compute_dist",
+			"selectSpace",
+			"select_space",
+			"plot_hist",
+			"hist",
+			"savefig",
+			"parse_dates",
+			"parsedates",
+			"sin",
+			"numpy",
+			"falase",
+			"datestr",
+			"parser",
+			"pdb",
+			"data['created_at']",
+			"created_at",
+			"8601",
+			"strftime",
+			"lon",
+			"long",
+			"lat",
+			"select_data",
+			"%mat",
+			"compute_",
+			".T",
+			"pd",
+			"this_long",
+			"cm",
+			"\"",
+			"'datetime'",
+			"datetime",
+			"pdb",
+			"if we lost",
+			"twitAPI",
+			"-122",
+			"max_id",
+			"pdb",
+			"pdb.",
+			"pdb.	",
+			"pdb",
+			"customstream",
+			"custonstream",
+			"sf_center",
+			".json",
+			"sys",
+			"mongo",
+			"location",
+			"pt",
+			"arcos",
+			"json",
+			"customstream",
+			"acos",
+			"math",
+			"Stream",
+			"bound",
+			"theta",
+			"findall",
+			"puzzparts",
+			"summary",
+			"keep_focus",
+			"gree1989",
+			"gree",
+			"support",
+			"encoding"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_then",
+			"_base",
+			"selectSpaceBB",
+			"created_at",
+			"sd",
+			"'tweettime'",
+			"arcos",
+			"np",
+			"img_urls"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "diss.tex",
+					"settings":
+					{
+						"buffer_size": 3696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3521,
+								3521
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1359.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "specific_aims.tex",
+					"settings":
+					{
+						"buffer_size": 13841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "background_sig.tex",
+					"settings":
+					{
+						"buffer_size": 51080,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dependent_measures.tex",
+					"settings":
+					{
+						"buffer_size": 18849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "research_prop_general.tex",
+					"settings":
+					{
+						"buffer_size": 2709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "exp_1.tex",
+					"settings":
+					{
+						"buffer_size": 76323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "research_prop_exp.tex",
+					"settings":
+					{
+						"buffer_size": 17826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 59.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "exp_2.tex",
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "general_discussion.tex",
+					"settings":
+					{
+						"buffer_size": 64,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 143.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true
+}
