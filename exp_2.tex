@@ -27,11 +27,11 @@ It would be enlightening to get away from a paradigm that involves immediate rep
 
 \subsubsection{Participants}
 
-% subNum = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22];
+% subNum = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40];
 % age = [];
 % gender = []; % (1 = male, 2 = female)
 % excludedSub = [];
-% %excludedSub = [1,8,17,19,30,5,9,14,15,18,25,28,32,36];
+% %excludedSub = [2,3,9,13,20,23,24,27,39,4,7,16,25,29,32,34];
 % % excludedSub = [];
 % numSub = sum(~ismember(subNum,excludedSub))
 % mean(age(~ismember(subNum,excludedSub)))
@@ -39,12 +39,11 @@ It would be enlightening to get away from a paradigm that involves immediate rep
 % max(age(~ismember(subNum,excludedSub)))
 % sum(gender(~ismember(subNum,excludedSub)) == 2) % females
 
-\hl{??} University of Colorado Boulder undergraduates participated in the experiment for payment of \$15 per hour (ages ?--?, $M=?$; ? female).  All participants were right-handed native-English speakers and had normal or corrected-to-normal vision.  Informed consent was obtained from each participant, and the study conformed to the Institutional Review Board guidelines.
+40 University of Colorado Boulder undergraduates participated in the experiment for payment of \$15 per hour (ages ?--?, $M=?$; ? female).  All participants were right-handed native-English speakers and had normal or corrected-to-normal vision.  Informed consent was obtained from each participant, and the study conformed to the Institutional Review Board guidelines.
 
 \subsubsection{Materials}
 
 The stimuli and experiment presentation software was the same as for Experiment~1.
-
 
 \subsubsection{Design}
 
@@ -98,11 +97,42 @@ in Experiment~2 was the same as in Experiment~1.
 
 \subsection{Results}
 
-XYZ participants were included in behavioral analyses.  X participants were excluded from ERP and time--frequency analyses because they...
+% DNF session 2:
+% SPACE2003
+% SPACE2009
+% SPACE2013 % didn't record EEG so stopped in middle of session 1
+% SPACE2020
+% SPACE2023
+% SPACE2024
+% SPACE2027
+% SPACE2039
+
+% performance more than 2 STD below mean in some cases (e.g., lag 32):
+% SPACE2007 (also rejected below)
+% SPACE2025 (also rejected below)
+
+% EEG trials < 10:
+% SPACE2004
+% SPACE2007 (also rejected above)
+% SPACE2016
+% SPACE2025 (also rejected above)
+% SPACE2029
+% SPACE2032
+% SPACE2034
+
+% noisy EEG: SPACE2002
+
+Ten participants were excluded from all analyses either because they did not return for the required second session ($n=8$) or their performance in important conditions was more than 2 standard deviations below the mean ($n=2$).  The remaining 30 participants were included in behavioral analyses.
+
+Six participants were excluded from ERP and time--frequency analyses either because they had extremely noisy EEG ($n=1$) or had fewer than 10 artifact-free trials in any of the main trial conditions ($n=5$), leaving twenty-four participants in EEG analyses.  Similarity analyses included the \hl{??} participants who had six or more artifact-free pairs of initial presentation--repetition image trials; images were used because this is when word--image (item--context) binding should occur.
+
+All analyses contingent on subsequent memory are split by whether words were recalled or forgotten after the image was correctly recognized as being old.
 
 \subsubsection{Behavioral results}
 
+An ANOVA with factors of session (1 and 2), spacing (single presentation, massed, short, medium, and long spaced), and image category, was run on cued recall hit rate.  There was a main effect of spacing [$F(1,29)=174.2, p=0$] in the expected order: long spaced words ($M=56.9\%$) were recalled better than medium spaced words ($M=49.2\%$), and in turn each of short spaced words ($M=45.8\%$), massed ($M=35.7\%$), and single presentation ($M=23.0\%$) were better than the next.  Words paired with faces and scenes were recalled at the same rate (faces: $M=44.0\%$; scenes: $M=40.2\%$).  Thus, there are again clear spacing effects that scale with spacing, as well as a simple repetition effect. These rates are comparable to Experiment~1.
 
+There were also session $\times$ image category [$F(1,29)=7.96, p=.0086$] and spacing $\times$ image category [$F(4,116)=7.52, p=4.47e^{-05}$] interactions such that recall was better for faces on session 1 compared to session 2, and performance increased at the longest lag for faces compared to scenes.  However, these effects do not speak to our investigations of the spacing effect and will not be reported in detail.
 
 \subsubsection{ERP results}
 
