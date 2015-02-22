@@ -35,7 +35,7 @@
 			"file": "diss.tex",
 			"settings":
 			{
-				"buffer_size": 3696,
+				"buffer_size": 4107,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "specific_aims.tex",
 			"settings":
 			{
-				"buffer_size": 13841,
+				"buffer_size": 13837,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "background_sig.tex",
 			"settings":
 			{
-				"buffer_size": 51080,
+				"buffer_size": 51152,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "dependent_measures.tex",
 			"settings":
 			{
-				"buffer_size": 18849,
+				"buffer_size": 19021,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +67,7 @@
 			"file": "research_prop_general.tex",
 			"settings":
 			{
-				"buffer_size": 2709,
+				"buffer_size": 2796,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,15 +75,7 @@
 			"file": "exp_1.tex",
 			"settings":
 			{
-				"buffer_size": 76323,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "research_prop_exp.tex",
-			"settings":
-			{
-				"buffer_size": 17826,
+				"buffer_size": 77187,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,7 +83,7 @@
 			"file": "exp_2.tex",
 			"settings":
 			{
-				"buffer_size": 58,
+				"buffer_size": 11187,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,7 +91,7 @@
 			"file": "general_discussion.tex",
 			"settings":
 			{
-				"buffer_size": 64,
+				"buffer_size": 55,
 				"line_ending": "Unix"
 			}
 		}
@@ -156,10 +148,11 @@
 	},
 	"file_history":
 	[
+		"/Users/matt/Documents/papers/diss/diss.sublime-project",
+		"/Users/matt/Documents/papers/diss/research_prop_exp.tex",
 		"/Users/matt/Documents/papers/diss/research_prelim.tex",
 		"/Users/matt/Documents/papers/diss/dependent_measures.tex",
 		"/Users/matt/Documents/papers/diss/diss.tex",
-		"/Users/matt/Documents/papers/diss/research_prop_exp.tex",
 		"/Users/matt/Documents/papers/diss/research_prop_general.tex",
 		"/Users/matt/Documents/papers/diss/specific_aims.tex",
 		"/Users/matt/Documents/papers/diss/background_sig.tex",
@@ -209,6 +202,48 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"exclud",
+			"RSA",
+			"TSA",
+			"saw an",
+			"supp",
+			"first",
+			"since",
+			"p=0.",
+			"(*). (c) and (f) M",
+			"(c) Grand averages. (b) and (e):",
+			"anova",
+			"pairwise",
+			"3-way",
+			"retention",
+			"massed",
+			"t5",
+			"minute",
+			"standard abb",
+			"twel",
+			"human",
+			"suetal",
+			"kimetal",
+			"desync",
+			"whil",
+			"while",
+			"polyetal2009",
+			"abstract",
+			"it might",
+			"abstract",
+			"mvm",
+			"\\hl",
+			"it may",
+			"EEG",
+			"fmri",
+			"suppression",
+			"fmri",
+			"f",
+			"fmri",
+			"figs",
+			"figs/",
+			"graphic",
+			"cbstart",
 			"pacific",
 			"sql=",
 			"sql =",
@@ -294,56 +329,20 @@
 			"lon",
 			"long",
 			"lat",
-			"select_data",
-			"%mat",
-			"compute_",
-			".T",
-			"pd",
-			"this_long",
-			"cm",
-			"\"",
-			"'datetime'",
-			"datetime",
-			"pdb",
-			"if we lost",
-			"twitAPI",
-			"-122",
-			"max_id",
-			"pdb",
-			"pdb.",
-			"pdb.	",
-			"pdb",
-			"customstream",
-			"custonstream",
-			"sf_center",
-			".json",
-			"sys",
-			"mongo",
-			"location",
-			"pt",
-			"arcos",
-			"json",
-			"customstream",
-			"acos",
-			"math",
-			"Stream",
-			"bound",
-			"theta",
-			"findall",
-			"puzzparts",
-			"summary",
-			"keep_focus",
-			"gree1989",
-			"gree",
-			"support",
-			"encoding"
+			"select_data"
 		],
-		"highlight": false,
+		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"p=.",
+			"(*); (c) and (f) m",
+			"(d) Grand averages; (b) and (e)",
+			"three-way",
+			"Three-way",
+			"figs/exp1/",
 			"_then",
 			"_base",
 			"selectSpaceBB",
@@ -371,15 +370,15 @@
 					"file": "diss.tex",
 					"settings":
 					{
-						"buffer_size": 3696,
+						"buffer_size": 4107,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3521,
-								3521
+								943,
+								943
 							]
 						],
 						"settings":
@@ -391,7 +390,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1359.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -401,15 +400,15 @@
 					"file": "specific_aims.tex",
 					"settings":
 					{
-						"buffer_size": 13841,
+						"buffer_size": 13837,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								571,
+								571
 							]
 						],
 						"settings":
@@ -429,15 +428,15 @@
 					"file": "background_sig.tex",
 					"settings":
 					{
-						"buffer_size": 51080,
+						"buffer_size": 51152,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								16116,
+								16116
 							]
 						],
 						"settings":
@@ -457,15 +456,15 @@
 					"file": "dependent_measures.tex",
 					"settings":
 					{
-						"buffer_size": 18849,
+						"buffer_size": 19021,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								12732,
+								12732
 							]
 						],
 						"settings":
@@ -475,7 +474,7 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 399.0,
+						"translation.y": 4256.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -485,15 +484,15 @@
 					"file": "research_prop_general.tex",
 					"settings":
 					{
-						"buffer_size": 2709,
+						"buffer_size": 2796,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								420,
+								422
 							]
 						],
 						"settings":
@@ -513,15 +512,15 @@
 					"file": "exp_1.tex",
 					"settings":
 					{
-						"buffer_size": 76323,
+						"buffer_size": 77187,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								74,
-								74
+								18197,
+								18197
 							]
 						],
 						"settings":
@@ -533,25 +532,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4895.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "research_prop_exp.tex",
+					"file": "exp_2.tex",
 					"settings":
 					{
-						"buffer_size": 17826,
+						"buffer_size": 11187,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5276,
+								5276
 							]
 						],
 						"settings":
@@ -561,53 +560,25 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 59.0,
+						"translation.y": 1061.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "exp_2.tex",
-					"settings":
-					{
-						"buffer_size": 58,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								58,
-								58
-							]
-						],
-						"settings":
-						{
-							"enable_checkbounce_grammar": false,
-							"enable_checkbounce_spelling": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
 					"file": "general_discussion.tex",
 					"settings":
 					{
-						"buffer_size": 64,
+						"buffer_size": 55,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								64,
-								64
+								53,
+								53
 							]
 						],
 						"settings":
