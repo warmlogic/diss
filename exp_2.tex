@@ -69,6 +69,8 @@ An electrode net was applied to each participant's head, and the session began w
 
 % for each category, 3 image trials of each of 5 types: 
 
+% (((9+3)*2)+3+2)*2
+
 In each study phase block, participants viewed word--image pairs and were asked to think of a relationship between them or to make up a story pairing them.  They were told that a subsequent test would require them to remember the word associated with each picture, but they were not told that some pairs are repeated.  Spaced items were presented at a lag of either 2, 12, or 32, and massed items were presented at a lag of zero.  For each of the two image categories there were three two-presentation spaced pairs per lag, three two-presentation massed pairs, three pairs presented only once, and four additional single-presentation buffers (two at the beginning of the list and two at the end).
 % All images (including spaced, massed, and single presentation items) were included on the test list.
 Thus, there were 58 word--image presentations in each block.  On each trial, a fixation cross appeared for 1.0--1.2~s (jittered), then the word was presented first for 1.0~s followed immediately by the image for 1.0~s.  No more than three images from the same category could occur in a row, and no more than two trials with the same lag (including single-presentation pairs) could occur in a row.  Each study phase lasted approximately \hl{5~min}.
@@ -92,8 +94,12 @@ Finally, in the test phase, participants performed a cued recall task.  Thirty i
 
 \subsubsection{Electrophysiological recordings and data processing}
 
-The procedure for recording and processing electrophysiological data
-in Experiment~2 was the same as in Experiment~1.
+The procedure for recording and processing electrophysiological data was the same as in Experiment~1.
+
+The same methodology was used to find peak electrodes and latencies for analyzing ERP effects.  Peaks in Experiment~2 were at the same electrodes as in the previous experiment, but were slightly earlier in time.
+The visual N1 peaked at electrode~58 (T5) peaked at $144$~ms (Figure~\ref{fig:s2_N1}; $\pm$50~ms window).  The N400 peaked at Cz at $352$~ms (Figure~\ref{fig:s2_N400}; $\pm$50~ms window).  The LPC peaked at electrode~77 at $536$~ms (Figure~\ref{fig:s2_LPC}; $\pm$100~ms window).  Again, analyses use these peak electrodes and neighbors during study period words stimuli.
+
+Time--frequency processing and analyses also followed the same procedures as in Experiment~1.
 
 \subsection{Results}
 
@@ -111,32 +117,32 @@ in Experiment~2 was the same as in Experiment~1.
 % SPACE2007 (also rejected below)
 % SPACE2025 (also rejected below)
 
-% extremely noisy EEG: SPACE2002
-
 % EEG trials < 10:
-% SPACE2004
+% SPACE2002 (also rejected below)
 % SPACE2007 (also rejected above)
-% SPACE2016
 % SPACE2025 (also rejected above)
-% SPACE2029
-% SPACE2032
 % SPACE2034
+
+% noisy EEG:
+% noisiest first: 2, 16, 22, 40, 26, 36, 10, 17; only rejecting 2 and 16
+% SPACE2002 (also rejected above)
+% SPACE2016
 
 Ten participants were excluded from all analyses either because they did not return for the required second session ($n=8$) or their performance in important conditions was more than 2 standard deviations below the mean ($n=2$).  The remaining thirty participants were included in behavioral analyses.
 
-Six participants were excluded from ERP and time--frequency analyses either because they had extremely noisy EEG ($n=1$) or had fewer than 10 artifact-free trials in any of the main trial conditions ($n=5$), leaving twenty-four participants in EEG analyses.  Similarity analyses included the \hl{??} participants who had six or more artifact-free pairs of initial presentation--repetition image trials; images were used because this is when word--image (item--context) binding should occur.
+Three additional participants were excluded from ERP and time--frequency analyses either because they had extremely noisy EEG ($n=2$) or had fewer than 10 artifact-free trials in any of the main trial conditions ($n=1$), leaving twenty-seven participants in EEG analyses.  Similarity analyses included the \hl{??} participants who had six or more artifact-free pairs of initial presentation--repetition image trials; images were used because this is when word--image (item--context) binding should occur.
 
 All analyses contingent on subsequent memory are split by whether words were recalled or forgotten after the image was correctly recognized as being old.
 
 \subsubsection{Behavioral results}
 
-An ANOVA with factors of session (1 and 2), spacing (single presentation, massed, short, medium, and long spaced), and image category, was run on cued recall hit rate.  There was a main effect of spacing [$F(1,29)=174.2, p=0$] in the expected order: long spaced words ($M=56.9\%$) were recalled better than medium spaced words ($M=49.2\%$), and in turn each of short spaced words ($M=45.8\%$), massed ($M=35.7\%$), and single presentation ($M=23.0\%$) were better than the next.  Words paired with faces and scenes were recalled at the same rate (faces: $M=44.0\%$; scenes: $M=40.2\%$).  Thus, there are again clear spacing effects that scale with spacing, as well as a simple repetition effect. These rates are comparable to Experiment~1.
+An ANOVA with factors of session (1 and 2), spacing (single presentation, massed, short, medium, and long spaced), and image category, was run on cued recall hit rate.  There was a main effect of spacing [$F(1,29)=174.2, p=0$] in the expected order: long spaced words ($M=56.9\%$) were recalled better than medium spaced words ($M=49.2\%$), and in turn performance for each of short spaced ($M=45.8\%$), massed ($M=35.7\%$), and single presentation words ($M=23.0\%$) was better than the next.  Words paired with faces and scenes were recalled at the same rate (faces: $M=44.0\%$; scenes: $M=40.2\%$).  Thus, there are again clear spacing effects that scale with spacing, as well as a simple repetition effect. These rates are comparable to Experiment~1.
 
-There were also session $\times$ image category [$F(1,29)=7.96, p=.0086$] and spacing $\times$ image category [$F(4,116)=7.52, p=4.47e^{-05}$] interactions such that recall was better for faces on session 1 compared to session 2, and performance increased at the longest lag for faces compared to scenes.  However, these effects do not speak to our investigations of the spacing effect and will not be reported in detail.
+There were also session $\times$ image category [$F(1,29)=7.96, p=.0086$] and spacing $\times$ image category [$F(4,116)=7.52, p=4.47e^{-05}$] interactions such that recall was better for faces in session 1 compared to session 2, and performance increased at the longest lag for faces compared to scenes.  However, these effects do not speak to our investigations of the spacing effect and will not be reported in detail.
 
 \subsubsection{ERP results}
 
-
+Again, during studied words the visual N1 peaked at 144~ms (Figure~\ref{fig:N1}), the N400 peaked at 352~ms (Figure~\ref{fig:N400}), and the LPC peaked at 536~ms (Figure~\ref{fig:LPC}).  Significant results are reported.
 
 \subsubsection{ERP discussion}
 
