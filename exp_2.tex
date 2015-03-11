@@ -237,10 +237,95 @@ We still haven't found the defining neural signature for why long spaced perform
 
 \subsubsection{Time--frequency results}
 
+We again analyzed images in addition to words for time--frequency data.
+Three-way ANOVAs with factors of spacing (spaced and massed), subsequent memory (recalled and forgotten), and latency (0--500~ms and 500--1000~ms) were performed for word and image repetitions on power in the theta, lower alpha, upper alpha, and lower beta bands (eight ANOVAs).
+
+
+% plot: word and image theta
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{cccc}
+  & Theta power & Theta power & Means \\
+  & \multicolumn{1}{l}{(a)} & \multicolumn{1}{l}{(b)} & \multicolumn{1}{l}{(c)} \\
+  \raisebox{1.8cm}{\rotatebox{90}{Word}} & \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_word_rc_mass_p2_word_fo_mass_p2_word_rc_spac2_p2_word_fo_spac2_p2_4_8_-100_1000_73ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_word_rc_spac12_p2_word_fo_spac12_p2_word_rc_spac32_p2_word_fo_spac32_p2_4_8_-100_1000_73ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_avg/tfr_avg_ga_word_rc_mass_p2_word_fo_mass_p2_word_rc_spac2_p2_word_fo_spac2_p2_word_rc_spac12_p2_word_fo_spac12_p2_word_rc_spac32_p2_word_fo_spac32_p2_4_8_0_500_500_1000_73ROI_ylabel} \\
+  & \multicolumn{1}{l}{(d)} & \multicolumn{1}{l}{(e)} & \multicolumn{1}{l}{(f)} \\
+  \raisebox{1.8cm}{\rotatebox{90}{Image}} & \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_img_rc_mass_p2_img_fo_mass_p2_img_rc_spac2_p2_img_fo_spac2_p2_4_8_-100_1000_90ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_img_rc_spac12_p2_img_fo_spac12_p2_img_rc_spac32_p2_img_fo_spac32_p2_4_8_-100_1000_90ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_avg/tfr_avg_ga_img_rc_mass_p2_img_fo_mass_p2_img_rc_spac2_p2_img_fo_spac2_p2_img_rc_spac12_p2_img_fo_spac12_p2_img_rc_spac32_p2_img_fo_spac32_p2_4_8_0_500_500_1000_90ROI_ylabel} \\
+  \end{tabular}
+  \caption{Theta power to words and images.  (a), (b), (d), and (e) Grand averages; (c) and (f) mean values for the two time windows (error bars are SEM).}
+  \label{fig:s2_word_img_theta}
+  %Figure~\ref{fig:s2_word_img_theta}
+\end{figure}
+
+
+
+% plot: word and image lower alpha
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{cccc}
+  & Lower alpha power & Lower alpha power & Means \\
+  & \multicolumn{1}{l}{(a)} & \multicolumn{1}{l}{(b)} & \multicolumn{1}{l}{(c)} \\
+  \raisebox{1.8cm}{\rotatebox{90}{Word}} & \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_word_rc_mass_p2_word_fo_mass_p2_word_rc_spac2_p2_word_fo_spac2_p2_8_10_-100_1000_49ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_word_rc_spac12_p2_word_fo_spac12_p2_word_rc_spac32_p2_word_fo_spac32_p2_8_10_-100_1000_49ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_avg/tfr_avg_ga_word_rc_mass_p2_word_fo_mass_p2_word_rc_spac2_p2_word_fo_spac2_p2_word_rc_spac12_p2_word_fo_spac12_p2_word_rc_spac32_p2_word_fo_spac32_p2_8_10_0_500_500_1000_49ROI_ylabel} \\
+  & \multicolumn{1}{l}{(d)} & \multicolumn{1}{l}{(e)} & \multicolumn{1}{l}{(f)} \\
+  \raisebox{1.8cm}{\rotatebox{90}{Image}} & \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_img_rc_mass_p2_img_fo_mass_p2_img_rc_spac2_p2_img_fo_spac2_p2_8_10_-100_1000_94ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_img_rc_spac12_p2_img_fo_spac12_p2_img_rc_spac32_p2_img_fo_spac32_p2_8_10_-100_1000_94ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_avg/tfr_avg_ga_img_rc_mass_p2_img_fo_mass_p2_img_rc_spac2_p2_img_fo_spac2_p2_img_rc_spac12_p2_img_fo_spac12_p2_img_rc_spac32_p2_img_fo_spac32_p2_8_10_0_500_500_1000_94ROI_ylabel} \\
+  \end{tabular}
+  \caption{Lower alpha power to words and images.  (a), (b), (d), and (e) Grand averages; (c) and (f) mean values for the two time windows (error bars are SEM).}
+  \label{fig:s2_word_img_alpha_low}
+  %Figure~\ref{fig:s2_word_img_alpha_low}
+\end{figure}
+
+
+% plot: word and image upper alpha
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{cccc}
+  & Upper alpha power & Upper alpha power & Means \\
+  & \multicolumn{1}{l}{(a)} & \multicolumn{1}{l}{(b)} & \multicolumn{1}{l}{(c)} \\
+  \raisebox{1.8cm}{\rotatebox{90}{Word}} & \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_word_rc_mass_p2_word_fo_mass_p2_word_rc_spac2_p2_word_fo_spac2_p2_11_12_-100_1000_46ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_word_rc_spac12_p2_word_fo_spac12_p2_word_rc_spac32_p2_word_fo_spac32_p2_11_12_-100_1000_46ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_avg/tfr_avg_ga_word_rc_mass_p2_word_fo_mass_p2_word_rc_spac2_p2_word_fo_spac2_p2_word_rc_spac12_p2_word_fo_spac12_p2_word_rc_spac32_p2_word_fo_spac32_p2_11_12_0_333_333_666_666_1000_46ROI_ylabel} \\
+  & \multicolumn{1}{l}{(d)} & \multicolumn{1}{l}{(e)} & \multicolumn{1}{l}{(f)} \\
+  \raisebox{1.8cm}{\rotatebox{90}{Image}} & \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_img_rc_mass_p2_img_fo_mass_p2_img_rc_spac2_p2_img_fo_spac2_p2_11_12_-100_1000_44ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_img_rc_spac12_p2_img_fo_spac12_p2_img_rc_spac32_p2_img_fo_spac32_p2_11_12_-100_1000_44ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_avg/tfr_avg_ga_img_rc_mass_p2_img_fo_mass_p2_img_rc_spac2_p2_img_fo_spac2_p2_img_rc_spac12_p2_img_fo_spac12_p2_img_rc_spac32_p2_img_fo_spac32_p2_11_12_0_333_333_666_666_1000_44ROI_ylabel} \\
+  \end{tabular}
+  \caption{Upper alpha to words and images.  (a), (b), (d), and (e) Grand averages; (c) and (f) mean values for the three time windows (error bars are SEM).}
+  \label{fig:s2_word_img_alpha_upp}
+  %Figure~\ref{fig:s2_word_img_alpha_upp}
+\end{figure}
+
+
+% plot: word and image lower beta
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{cccc}
+  & Lower beta power & Lower beta power & Means \\
+  & \multicolumn{1}{l}{(a)} & \multicolumn{1}{l}{(b)} & \multicolumn{1}{l}{(c)} \\
+  \raisebox{1.8cm}{\rotatebox{90}{Word}} & \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_word_rc_mass_p2_word_fo_mass_p2_word_rc_spac2_p2_word_fo_spac2_p2_13_21_-100_1000_66ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_word_rc_spac12_p2_word_fo_spac12_p2_word_rc_spac32_p2_word_fo_spac32_p2_13_21_-100_1000_66ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_avg/tfr_avg_ga_word_rc_mass_p2_word_fo_mass_p2_word_rc_spac2_p2_word_fo_spac2_p2_word_rc_spac12_p2_word_fo_spac12_p2_word_rc_spac32_p2_word_fo_spac32_p2_13_21_0_333_333_666_666_1000_66ROI_ylabel} \\
+  & \multicolumn{1}{l}{(d)} & \multicolumn{1}{l}{(e)} & \multicolumn{1}{l}{(f)} \\
+  \raisebox{1.8cm}{\rotatebox{90}{Image}} & \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_img_rc_mass_p2_img_fo_mass_p2_img_rc_spac2_p2_img_fo_spac2_p2_13_21_-100_1000_30ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_line/tfr_line_ga_img_rc_spac12_p2_img_fo_spac12_p2_img_rc_spac32_p2_img_fo_spac32_p2_13_21_-100_1000_30ROIs_legend} &
+  \includegraphics[width=.30\textwidth]{./figs/exp2/tfr_avg/tfr_avg_ga_img_rc_mass_p2_img_fo_mass_p2_img_rc_spac2_p2_img_fo_spac2_p2_img_rc_spac12_p2_img_fo_spac12_p2_img_rc_spac32_p2_img_fo_spac32_p2_13_21_0_333_333_666_666_1000_30ROI_ylabel} \\
+  \end{tabular}
+  \caption{Lower beta power to words and images.  (a), (b), (d), and (e) Grand averages; (c) and (f) mean values for the three time windows (error bars are SEM).}
+  \label{fig:s2_word_img_beta_low}
+  %Figure~\ref{fig:s2_word_img_beta_low}
+\end{figure}
 
 
 \subsubsection{Time--frequency discussion}
 
+
+Theta power for long spaced items (shows?) an effect, meaning that the retrieval of long spaced items .  Theta power during recalled long spaced word repetitions showed even greater levels compared to the other conditions, meaning retrieval occurred.  This is in line with the \citeA{Gree1989a} idea (and some models---Makeig? Mozer?) that more difficult retrievals (due to increased spacing) leads to better memory. Though the base rate for long spaced items was higher overall, doesn't mean there were fewer strong trials?
 
 
 \subsubsection{Similarity results}
