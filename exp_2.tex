@@ -130,9 +130,9 @@ Time--frequency processing and analyses also followed the same procedures as in 
 
 Ten participants were excluded from all analyses either because they did not return for the required second session ($n=8$) or their performance in important conditions was more than 2 standard deviations below the mean ($n=2$).  The remaining thirty participants were included in behavioral analyses.
 
-Three additional participants were excluded from ERP and time--frequency analyses either because they had extremely noisy EEG ($n=2$) or had fewer than 10 artifact-free trials in any of the main trial conditions ($n=1$), leaving twenty-seven participants in EEG analyses.  Similarity analyses included the \hl{??} participants who had six or more artifact-free pairs of initial presentation--repetition image trials; images were used because this is when word--image (item--context) binding should occur.
+Three additional participants were excluded from ERP and time--frequency analyses either because they had extremely noisy EEG ($n=2$) or had fewer than 10 artifact-free trials in any of the main trial conditions ($n=1$), leaving twenty-seven participants in EEG analyses.  Similarity analyses included the same 27 participants, all of whom had six or more artifact-free pairs of initial presentation--repetition image trials; images were used because this is when word--image (item--context) binding should occur.
 
-All analyses contingent on subsequent memory are split by whether words were recalled or forgotten after the image was correctly recognized as being old.
+All analyses contingent on subsequent memory are split by whether words were recalled or forgotten.
 
 \subsubsection{Behavioral results}
 
@@ -358,6 +358,32 @@ Theta power for long spaced items (shows?) an effect, meaning that the retrieval
 \subsubsection{Similarity results}
 
 
+\begin{figure}[H]
+  \centering
+  %\includegraphics[width=.40\textwidth]{./figs/exp1/similarity_spacXmemXtime_img_tla_LTRT_0to500_500to1000_kaiser_cosine}
+  \includegraphics[width=.40\textwidth]{./figs/exp2/similarity_spacXmemXtime_img_tla_LTRT_0to200_200to400_400to600_600to800_800to1000_kaiser_cosine}
+  \caption{Similarity for voltage at left and right temporal sites during image repetitions: Interaction between spacing, memory, and time [$n.s.$].}
+  \label{fig:s2_sim_tla_spacXmemXtime}
+  %Figure~\ref{fig:s2_sim_tla_spacXmemXtime}
+\end{figure}
+
+% \hl{Perhaps there is a way to select principal components that vary with memory performance and/or encoding strength.}  (Mentioned regarding \citeA{MannEtal2011} right before general discussion).
+
+The same methods were used to measure neural similarity between initial and repetition trials as in Experiment~1.
+
+For voltage, a three-way repeated measures ANOVA was run on the average similarity values from left and right temporal regions with factors of spacing (spaced and massed), subsequent memory (recalled and not recalled), and latency (successive time bins).  There was a main effect of spacing [$F(3,78)=11.1, p=5.19e^{-6}$], a marginal effect of memory [$F(1,26)=3.92, p=.058$], and a main effect of latency [$F(4,104)=6.31, p<.0005$].  There was also a spacing $\times$ latency interaction [$F(12,312)=2.99, p=.005$].  Spaced items of all lengths were more similar than massed items, subsequently recalled items were marginally more similar than forgotten ones, and similarity decreased across time.  The interaction explains the two significant main effects in that massed items decreased more across time than spaced items.  These follow the results of Experiment~1, with the addition of the memory effect.
+
+\begin{figure} [H]
+  \centering
+  %\includegraphics[width=.40\textwidth]{./figs/exp1/similarity_spacXmemXtime_img_pow_PS_0to500_500to1000_kaiser_cosine}
+  \includegraphics[width=.40\textwidth]{./figs/exp2/similarity_spacXmemXtime_img_pow_LPSRPS_0to200_200to400_400to600_600to800_800to1000_kaiser_cosine}
+  \caption{Similarity for oscillatory power at left and right parietal sites during image repetitions: Interaction between spacing, memory, and time [$n.s.$].}
+  \label{fig:s2_sim_pow_spacXmemXtime}
+  %Figure~\ref{fig:s2_sim_pow_spacXmemXtime}
+\end{figure}
+
+For time--frequency data, the same three-way ANOVA was performed over left and right parietal regions across all frequency bands.
+There was a main effect of spacing [$F(3,78)=8.92, p=6.5e^{-5}$] (similarity decreased with lag), a main effect of latency [$F(4,104)=2.9, p<.05$] (similarity increased across time), and a marginal memory $\times$ latency interaction [$F(4,104)=2.46, p=0.051$] (without a very clear pattern).
 
 \subsubsection{Similarity discussion}
 
