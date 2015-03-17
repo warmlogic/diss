@@ -391,14 +391,15 @@ The lower beta effects for words and images almost exactly follow those of Exper
 
 % \hl{Perhaps there is a way to select principal components that vary with memory performance and/or encoding strength.}  (Mentioned regarding \citeA{MannEtal2011} right before general discussion).
 
-\hl{From intro: None of our effects have supported contextual variability, but if it is at play we should see more variability in EEG at even longer lags.  The closest effect this is related to in Experiment~1 results is in time--frequency similarity; perhaps a clearer picture will emerge with more lags.}
+None of our effects for Experiment~2 have supported contextual variability; to do so, we would need to see more variability in EEG at as lag increases, an effect of temporocontextual drift.
+% The closest effect this is related to in Experiment~1 results is in time--frequency similarity;
+Perhaps a clearer picture will emerge with more lags.
 
 
-The same methods were used to measure neural similarity between initial and repetition trials as in Experiment~1, including that images were used for analysis because this is when word--image (item--context) binding should occur
+The same ROIs, latencies, and data processing methods were used to measure neural similarity between initial and repetition trials as in Experiment~1, including using images for analysis because this is when word--image (item--context) binding should occur.
+ 
 
-\hl{Exp~1: While the ERP and power results reveal that massed representations are accessed more quickly but perhaps to a lesser extent semantically than spaced representations, the nature of this representation is still unclear.  Are spaced repetitions remembered better due to essentially a repetition effect (in line with study-phase retrieval), or does temporocontextual drift play a role in encoding the repetition in a more variable manner (in line with contextual variability)?}
-
-For voltage, a three-way repeated measures ANOVA was run on the average similarity values from left and right temporal regions with factors of spacing (spaced and massed), subsequent memory (recalled and not recalled), and latency (successive time bins).  There was a main effect of spacing [$F(3,78)=11.1, p=5.19e^{-6}$], a marginal effect of memory [$F(1,26)=3.92, p=.058$], and a main effect of latency [$F(4,104)=6.31, p<.0005$].  There was also a spacing $\times$ latency interaction [$F(12,312)=2.99, p=.005$].  Spaced items of all lengths were more similar than massed items, subsequently recalled items were marginally more similar than forgotten ones, and similarity decreased across time.  The interaction explains the two significant main effects in that massed items decreased more across time than spaced items.  These follow the results of Experiment~1, with the addition of the memory effect.
+For voltage (plotted in Figure~\ref{fig:s2_sim_tla_spacXmemXtime}), a three-way repeated measures ANOVA was run on the average similarity values from left and right temporal regions with factors of spacing (spaced and massed), subsequent memory (recalled and not recalled), and latency (successive 200~ms time bins).  There was a main effect of spacing [$F(3,78)=11.1, p=5.19e^{-6}$], a marginal effect of memory [$F(1,26)=3.92, p=.058$], and a main effect of latency [$F(4,104)=6.31, p<.0005$].  There was also a spacing $\times$ latency interaction [$F(12,312)=2.99, p=.005$].  Spaced items of all lengths were more similar than massed items, subsequently recalled items were marginally more similar than forgotten ones, and similarity decreased across time.  The interaction explains the two significant main effects in that massed item similarity decreased more across time than spaced items.  These follow the results of Experiment~1, with the addition of the memory effect.
 
 \begin{figure}[H]
   \centering
@@ -409,19 +410,18 @@ For voltage, a three-way repeated measures ANOVA was run on the average similari
   %Figure~\ref{fig:s2_sim_pow_spacXmemXtime}
 \end{figure}
 
-For time--frequency data, the same three-way ANOVA was performed over left and right parietal regions across all frequency bands.
-There was a main effect of spacing [$F(3,78)=8.92, p=6.5e^{-5}$] (similarity decreased with lag), a main effect of latency [$F(4,104)=2.9, p<.05$] (similarity increased across time), and a marginal memory $\times$ latency interaction [$F(4,104)=2.46, p=0.051$] (without a very clear pattern).
+For time--frequency data (plotted in Figure~\ref{fig:s2_sim_pow_spacXmemXtime}), the same three-way ANOVA was performed over left and right parietal regions across all frequency bands.
+There was a main effect of spacing [$F(3,78)=8.92, p=6.5e^{-5}$] (similarity decreased with lag), a main effect of latency [$F(4,104)=2.9, p<.05$] (similarity increased across time), and a marginal memory $\times$ latency interaction [$F(4,104)=2.46, p=0.051$] (without a very clear pattern).  These also follow the results of Experiment~1, though the interaction was less clear here.
 
 \subsubsection{Similarity discussion}
 
-
+The patterns for voltage and time--frequency data mimicked Experiment~1 in the same surprising way.  Repeating some of the discussion from the prior experiment, it seems that, for voltage, spaced repetitions tend to induce a consistent representation across time (possibly supporting study-phase retrieval) while massed repetitions become much more variable either because noise is added to the system (supporting deficient processing), they tend to induce a more variable representation (supporting contextual variability), or different neural/cognitive processes are engaged.  Study-phase retrieval seems the most reasonable explanation; it does not seem like noise would be added to the system when a massed stimulus is being processed semantically, and from a theoretical standpoint there is no good reason for massed repetitions to have more variable representations.
 
 \subsection{Experiment~2 Discussion}
 
+The purpose of this experiment was to look for gradations in effects so we can better interpret data patterns in the context of three theories.
 
-\hl{From exp 2 intro: Again, the purpose of this experiment is to look for gradations in EEG effects so we can better interpret data patterns that fit multiple theories.}
-
-Many of the effects described here are similar to Experiment~1.
+Behaviorally, we saw exactly what we expected: performance increased significantly as lag increased.  The EEG effects are less clear, but overall, many of the effects described here are similar to Experiment~1.  The only effect that differed across spaced repetitions was theta power: there was more theta at longer lags for repeated items.
 
 
-It is interesting to contrast increased theta for long spaced items with the ERP LPC effects where massed items showed the most retrieval.  As was mentioned before, the LPC in this task may be related to information in working memory and may not necessarily reflect recollection.
+% It is interesting to contrast increased theta for long spaced items with the LPC effects where massed items showed the most retrieval.  As was mentioned before, the LPC in this task may be related to information in working memory and may not necessarily reflect recollection.
