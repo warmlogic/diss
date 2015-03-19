@@ -2,7 +2,7 @@
 
 \section{Experiment 2: Additional Study Lags}
 
-The goal of Experiment~2 (2a in the proposal) is to replicate and extend Experiment~1 in an attempt to answer some remaining questions about the spacing effect.  We will examine patterns of effects across short, medium, and long lags to determine whether these spacing effects are modulated by these parameters.  For example, deficient processing may still be present at short lags (this is important to scrutinize due to its status as an ``impostor effect''; \citeNP{DelaEtal2010}), there may be differences in reinstatement (study-phase retrieval) at long lags, or we may see other effects change in a graded fashion.
+The goal of Experiment~2 is to replicate and extend Experiment~1 in an attempt to answer some remaining questions about the spacing effect.  We will examine patterns of effects across short, medium, and long lags to determine whether these spacing effects are modulated by these parameters.  For example, deficient processing may still be present at short lags (this is important to scrutinize due to its status as an ``impostor effect''; \citeNP{DelaEtal2010}), there may be differences in reinstatement (study-phase retrieval) at long lags, or we may see other effects change in a graded fashion.
 
 \subsection{Design and Predictions}
 
@@ -17,11 +17,10 @@ We are also including the single-presentation stimuli at test, which will allow 
 \subsubsection{Participants}
 
 % subNum = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40];
-% age = [];
-% gender = []; % (1 = male, 2 = female)
+% age = [20, 0, 20, 18, 25, 18, 18, 26, 19, 18, 22, 19, 18, 22, 25, 25, 19, 19, 19, 18, 29, 0, 25, 18, 22, 21, 20, 23, 22, 22, 24, 20, 22, 24, 21, 23, 26, 21, 23, 20];
+% gender = [1, 0, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 1, 0, 2, 1, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 1, 1, 1, 2, 1, 1]; % (1 = male, 2 = female)
 % excludedSub = [];
-% %excludedSub = [2,3,9,13,20,23,24,27,39,4,7,16,25,29,32,34];
-% % excludedSub = [];
+% % excludedSub = [2,3,9,13,20,23,24,27,39,7,16,25,34];
 % numSub = sum(~ismember(subNum,excludedSub))
 % mean(age(~ismember(subNum,excludedSub)))
 % min(age(~ismember(subNum,excludedSub)))
@@ -61,7 +60,7 @@ An electrode net was applied to each participant's head, and the session began w
 
 % (((9+3)*2)+3+2)*2
 
-In each study phase block, participants viewed word--image pairs and were asked to think of a relationship between them or to make up a story pairing them.  They were told that a subsequent test would require them to remember the word associated with each picture, but they were not told that some pairs are repeated.  Spaced items were presented at a lag of either 2, 12, or 32, and massed items were presented at a lag of zero.  For each of the two image categories there were three two-presentation spaced pairs per lag, three two-presentation massed pairs, three pairs presented only once, and four additional single-presentation buffers (two at the beginning of the list and two at the end).
+In each study phase block, participants viewed word--image pairs and were asked to think of a relationship between them or to make up a story pairing them.  They were told that a subsequent test would require them to remember the word associated with each picture, but they were not told that some pairs will repeat.  Spaced items were presented at a lag of either 2, 12, or 32, and massed items were presented at a lag of zero.  For each of the two image categories there were three two-presentation spaced pairs per lag, three two-presentation massed pairs, three pairs presented only once, and four additional single-presentation buffers (two at the beginning of the list and two at the end).
 % All images (including spaced, massed, and single presentation items) were included on the test list.
 Thus, there were 58 word--image presentations in each block.  On each trial, a fixation cross appeared for 1.0--1.2~s (jittered), then the word was presented first for 1.0~s followed immediately by the image for 1.0~s.  No more than three images from the same category could occur in a row, and no more than two trials with the same lag (including single-presentation pairs) could occur in a row.  Each study phase lasted approximately \hl{5~min}.
 
@@ -236,7 +235,7 @@ Finally, we would expect working memory effects (LPC) to be graded across lags. 
 The other idea is that for working memory, effects should be stronger for massed items and decrease with lag; this larger difference for subsequent memory of massed items is what we see.
 
 As exhibited through behavioral performance, spaced items were obviously not forgotten even though they did not show an LPC memory effect, so this effect does not seen to be indexing recollection.  This makes sense when comparing its topography (Experiment~1, Figure~\ref{fig:LPC}, page~\pageref{fig:LPC}) to that of the parietal old/new effect, typically more left parietal.
-It again seems that the LPC indexes the information that is in working memory, and again, the result does not seem to directly support any of the theories unless the match to working memory for massed items is an indicator for deficient processing to engage.
+It again seems that the LPC indexes the information that is in working memory, and again, the result does not seem to directly support any of the theories unless the match to working memory for massed items is an indicator for processing to disengage (deficient processing).
 
 
 Thus, the LPC showed that information is being retrieved during repetitions (higher voltage), particularly for primed and/or still active massed items, as well as for subsequently recalled words overall.
@@ -420,6 +419,8 @@ The patterns for voltage and time--frequency data mimicked Experiment~1 in the s
 \subsection{Experiment~2 Discussion}
 
 The purpose of this experiment was to look for gradations in effects so we can better interpret data patterns in the context of three theories.
+
+There was no recognition test as in Experiment~1 (here, all test trials showed ``old'' stimuli), so the forgotten trials captured both images that were completely forgotten and those where they were only unsure about the paired words.
 
 Behaviorally, we saw exactly what we expected: performance increased significantly as lag increased.  The EEG effects are less clear, but overall, many of the effects described here are similar to Experiment~1.  The only effect that differed across spaced repetitions was theta power: there was more theta at longer lags for repeated items.
 
