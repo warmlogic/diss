@@ -37,12 +37,15 @@ The stimuli and experiment presentation software were the same as for Experiment
 
 %(Figure~\ref{fig:space2_exp})
 
-Experiment~2 consisted of nine blocks of three experimental phases:
-study, distractor, test.  These phases were similar to Experiment~1 (Figure~\ref{fig:space_exp}, page~\pageref{fig:space_exp}), but there was no exposure phase.  The session, including application of the electrode net and running in the task, lasted approximately 2.5 hours.  Stimuli were randomly shuffled prior to creating the list for each phase at the beginning of the session.  The study phase contained the conditions that were manipulated within subjects, namely the viewing of spaced and massed paired associates.
+Experiment~2 consisted of two sessions, each of which had nine blocks of three experimental phases: study, distractor, test.
+\cbstart
+Two sessions were used to gather enough trials across the additional conditions.
+\cbend
+The phases were similar to Experiment~1 (Figure~\ref{fig:space_exp}, page~\pageref{fig:space_exp}), but there was no exposure phase.  The sessions, including application of the electrode net and running in the task, lasted approximately 2.5 hours.  Stimuli were randomly shuffled prior to creating the list for each phase at the beginning of the first session.  The study phase contained the conditions that were manipulated within subjects, namely the viewing of spaced and massed paired associates.
 
 \subsubsection{Procedure}
 
-An electrode net was applied to each participant's head, and the session began with a shortened practice version of the experiment to familiarize participants with the study and test procedures (two spaced, two massed, and two single presentation items, with a lag of 4 items between spaced presentations; two new images were included at test).
+An electrode net was applied to each participant's head, and the first session began with a shortened practice version of the experiment to familiarize participants with the study and test procedures.
 
 % \begin{figure}
 %   \centering
@@ -83,12 +86,7 @@ Finally, in the test phase, participants performed a cued recall task.  Thirty i
 
 \subsubsection{Electrophysiological recordings and data processing}
 
-The procedure for recording and processing electrophysiological data was the same as in Experiment~1.
-
-The same methodology was used to find peak electrodes and latencies for analyzing ERP effects.  Peaks in Experiment~2 were at the same electrodes as in the previous experiment, but were slightly earlier in time. \hl{(Comment/question for Tim: I think latency difference is because for Exp~1 we didn't know about the EGI's A/D DIN delay so the correct offset (8~ms @ 250~Hz) was not used. Also, I used the average photocell offset for Exp~2 (17~ms) because tclab didn't want to deal with the photocell for every session, but I segmented to the actual photocell DINs for Exp~1. What should I do about this? The ``correct'' thing would be to redo Exp~1 analysis...)}
-The visual N1 peaked at electrode~58 (T5) at $144$~ms (Figure~\ref{fig:s2_N1}; $\pm$50~ms window).  The N400 peaked at Cz at $352$~ms (Figure~\ref{fig:s2_N400}; $\pm$75~ms window used due a slight spreading of the peak voltage).  The LPC peaked at electrode~77 at $536$~ms (Figure~\ref{fig:s2_LPC}; $\pm$100~ms window).  Again, analyses use these peak electrodes and neighbors during study period words stimuli.  After examining condition grand averages, it seems that voltages were overall slightly attenuated compared to Experiment~1, though it is hard to give a reason for this.
-
-Time--frequency processing and analyses also followed the same procedures as in Experiment~1.
+All procedures for recording and processing electrophysiological data was the same as in Experiment~1, as was finding ERP component peaks and analyzing ERP and time--frequency data.
 
 \subsection{Results}
 
@@ -133,7 +131,10 @@ Massed items were remembered significantly better than single-presentation items
 
 \subsubsection{ERP results}
 
-Again, during studied words the visual N1 peaked at $144$~ms (Figure~\ref{fig:s2_N1}), the N400 peaked at $352$~ms (Figure~\ref{fig:s2_N400}), and the LPC peaked at $536$~ms (Figure~\ref{fig:s2_LPC}).
+ERP component peaks in Experiment~2 were at the same electrodes as in the previous experiment, but were slightly earlier in time.
+%\hl{(Comment/question for Tim: I think latency difference is because for Exp~1 we didn't know about the EGI's A/D DIN delay so the correct offset (8~ms @ 250~Hz) was not used. Also, I used the average photocell offset for Exp~2 (17~ms) because tclab didn't want to deal with the photocell for every session, but I segmented to the actual photocell DINs for Exp~1. What should I do about this? The ``correct'' thing would be to redo Exp~1 analysis...)}
+The visual N1 peaked at electrode~58 (T5) at $144$~ms (Figure~\ref{fig:s2_N1}; $\pm$50~ms window).  The N400 peaked at Cz at $352$~ms (Figure~\ref{fig:s2_N400}; $\pm$75~ms window used due a slight spreading of the peak voltage).  The LPC peaked at electrode~77 at $536$~ms (Figure~\ref{fig:s2_LPC}; $\pm$100~ms window).  Again, analyses use these peak electrodes and neighbors during study period words stimuli.  After examining condition grand averages, it seems that voltages were overall slightly attenuated compared to Experiment~1; it is hard to give a reason for this, but it may be because Sessions 1 and 2 had the electrode cap placed in slightly different locations.
+% Again, during studied words the visual N1 peaked at $144$~ms (Figure~\ref{fig:s2_N1}), the N400 peaked at $352$~ms (Figure~\ref{fig:s2_N400}), and the LPC peaked at $536$~ms (Figure~\ref{fig:s2_LPC}).
 Three-way ANOVAs with factors of spacing (massed and short, medium, and long spacing), presentation (1/new and 2/old), and subsequent memory (recalled and forgotten words) were performed on the averaged window voltages for word presentations.  Significant results are reported.
 
 % \hl{How best to test single presentation items?}
