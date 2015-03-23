@@ -121,7 +121,7 @@ All analyses contingent on subsequent memory are split by whether words were rec
 
 \subsubsection{Behavioral results}
 
-An ANOVA with factors of session (1 and 2), spacing (single presentation, massed/lag 0, short/lag 2, medium/lag 12, and long/lag 32 spaced), and image category, was run on cued recall hit rate.  There was a main effect of spacing [$F(4,116)=174.2, p=2.62e^{-36}$] in the expected order: long spaced words ($M=56.9\%$) were recalled better than medium spaced words ($M=49.2\%$), and, in turn, performance for short spaced ($M=45.8\%$), massed ($M=35.7\%$), and single presentation words ($M=23.0\%$) was better than the next.  Words paired with faces and scenes were recalled at the same rate (faces: $M=44.0\%$; scenes: $M=40.2\%$).  Thus, there are again clear spacing effects that scale with spacing, as well as a simple repetition effect. These rates are comparable to Experiment~1.
+An ANOVA with factors of session (1 and 2), spacing (single presentation, massed/lag 0, short/lag 2, medium/lag 12, and long/lag 32 spaced), and image category, was run on cued recall hit rate.  There was a main effect of spacing [$F(4,116)=174.2, p=2.62e^{-36}$] in the expected order: long spaced words ($M=56.9\%$) were recalled better than medium spaced words ($M=49.2\%$), and, in turn, performance for short spaced ($M=45.8\%$), massed ($M=35.7\%$), and single presentation words ($M=23.0\%$) was better than the next.  Words paired with faces and scenes were recalled at the same rate (faces: $M=44.0\%$; scenes: $M=40.2\%$).  Thus, there are again clear spacing effects that scale with lag, as well as a simple repetition effect. These rates are comparable to Experiment~1.
 
 There were also session $\times$ image category [$F(1,29)=7.96, p<.01$] and spacing $\times$ image category [$F(4,116)=7.52, p<.0005$] interactions such that recall was better for faces in session 1 compared to session 2, and performance increased at the longest lag for faces compared to scenes.  However, these effects do not speak to our investigations of the spacing effect and will not be reported in detail.
 
@@ -157,7 +157,9 @@ Three-way ANOVAs with factors of spacing (massed and short, medium, and long spa
   %Figure~\ref{fig:s2_N1}
 \end{figure}
 
-If selective attention is modulated by spacing, early ERP components may show effects; this is relevant to deficient processing.  However, there were no significant differences for N1 voltage.
+If selective attention is modulated by spacing, early ERP components may show effects; this is relevant to deficient processing.  However, there were no significant differences for N1 voltage. \cbstart  Interestingly, examining the pairwise comparisons in the three-way interaction (which was significant in Experiment~1), recalled medium (12) spaced repetitions were marginally more negative ($M=-0.27~\mu$V) than recalled massed repetitions ($M=0.03~\mu$V) [$t(26)=-1.99, p=.057$].  The pattern was similar for recalled short (2) ($M=-0.26~\mu$V) and long (32) ($M=-0.27~\mu$V) spaced items, and forgotten conditions were all slightly attenuated.\cbend
+
+This implies that qualitatively similar attentional processing patterns are showing here, as compared to Experiment~1.
 
 % plot: N400 at Cz + surround
 \begin{figure}[hp]
@@ -181,8 +183,16 @@ If selective attention is modulated by spacing, early ERP components may show ef
 
 
 If differences in semantic priming and processing contribute to the spacing effect, the N400 should show effects.
+For N400 voltage there was a significant spacing $\times$ presentation interaction [$F(3,78)=8.89, p=6.36e^{-5}$] such that voltage became less negative from first presentations to spaced repetitions to massed repetitions [$p$s~$<.01$].  This is the same pattern as in Experiment~1.  There were no quantitative differences between spaced conditions.  There were also main effects of spacing (spaced items were more negative than massed [$F(3,78)=11.4, p=2.85e^{-6}$]) and presentation (repetitions were less negative than initial presentations [$F(1,26)=53.2, p=9.5e^{-8}$]).  Finally, there was a three-way interaction [$F(3,78)=2.93, p<.05$].  There were no differences for the initial presentations.  Rather, the effect seems to be driven by recalled medium (12) spaced repetitions showing a negative subsequent memory effect: medium recalled were more negative than forgotten (recalled: $M=-0.53~\mu$V, forgotten: $M=-0.19~\mu$V) [$t(26)=2.45, p<.05$].  
+The medium SME and attenuation for massed compared to spaced trials are the same effects seen in Experiment~1.
 
-For N400 voltage there was a significant spacing $\times$ presentation interaction [$F(3,78)=8.89, p=6.36e^{-5}$] such that voltage became less negative from first presentations to spaced repetitions to massed repetitions [$p$s~$<.01$].  This is the same pattern as in Experiment~1.  There were no quantitative differences between spaced conditions.  There were also main effects of spacing (spaced items were more negative than massed [$F(3,78)=11.4, p=2.85e^{-6}$]) and presentation (repetitions were less negative than initial presentations [$F(1,26)=53.2, p=9.5e^{-8}$]).  Finally, there was a three-way interaction [$F(3,78)=2.93, p<.05$], perhaps driven by remembered medium (12) spaced repetitions being more negative than forgotten ones [$t(26)=2.45, p<.05$], while remembered massed repetitions were marginally more positive than forgotten ones [$t(26)=-1.78, p=.087$].
+This implies that the more negative spaced trials receive more semantic processing, with subsequently recalled medium spaced trials getting more processing than those that are forgotten.
+
+% This is just a main effect of spacing:
+% Recalled trials for short, medium, and long (recalled: $M=-0.54~\mu$V) repetitions were more negative than both massed recalled and forgotten repetitions (recalled: $M=0.8~\mu$V; forgotten: $M=0.39~\mu$V) [$p$s~$<.05$].
+% % while remembered massed repetitions showed a marginal positive SME [$t(26)=-1.78, p=.087$].
+
+% There was an effect of latency (spacing x presentation). Mass P2 is faster than all other P2s. I think this might be influenced by the LPC, so I don't think it should be reported.
 
 
 % plot: LPC at E77 + surround
@@ -206,14 +216,15 @@ For N400 voltage there was a significant spacing $\times$ presentation interacti
 \end{figure}
 
 
-The LPC is related to working memory in repetition paradigms, and may show subsequent memory effects.
+The LPC is related to working memory and conscious access to information in memory in repetition paradigms, and may show subsequent memory effects.
+For LPC voltage, there were main effects for spacing [$F(3,78)=5.68, p<.005$], presentation [$F(1,26)=31.6, p=6.52e^{-6}$], and memory [$F(1,26)=22.4, p=6.88e^{-5}$].  Massed words ($M=2.92~\mu$V) were more positive than short ($M=2.33~\mu$V) and medium ($M=2.33~\mu$V) spaced words, but only marginally more than long spaced words ($M=2.6~\mu$V) [$t(26)=1.871, p=.073$]; long spaced words were also marginally more positive than short and medium trials [$p$s~$<.1$].  On average, repetitions ($M=2.4~\mu$V) were more positive than initial presentations ($M=2.25~\mu$V), and subsequently recalled words ($M=2.81~\mu$V) were more positive than forgotten ($M=2.28~\mu$V) .
 
-For LPC voltage, there were main effects for spacing, presentation, and memory.  Massed words were more positive than all spaced conditions [$F(3,78)=5.68, p<.005$], repetitions were more positive than initial presentations [$F(1,26)=31.6, p=6.52e^{-6}$], and subsequently recalled words ($M=2.81~\mu$V) were more positive than forgotten ($M=2.28~\mu$V) [$F(1,26)=22.4, p=6.88e^{-5}$].
-
-There was no three-way interaction, but when examining repetitions using a two-way ANOVA (factors of spacing and memory), there was a significant interaction [$F(3,78)=3.53, p<.05$] showing that massed was the only category with a subsequent memory effect; the actual voltage difference between recalled and forgotten words decreased with lag.
+There was no three-way interaction, but when examining only repetitions using a two-way ANOVA (factors of spacing and memory), there was a significant interaction [$F(3,78)=3.53, p<.05$] showing that massed was the only category with a subsequent memory effect; the actual voltage difference between recalled and forgotten words decreased with lag.
 % why would SME decrease with lag?
 
-There were no LPC latency effects.
+For LPC latency effects, which illuminate how quickly information is consciously accessed, there was the same spacing $\times$ presentation interaction [$F(3,78)=2.86, p<.05$] as in Experiment~1: medium (544~ms) and long (550~ms) spaced repetitions peaked later than massed repetitions (529~ms) [$p$s~$<.05$] and their respective the initial presentations (long: 529~ms [$t(26)=3.98, p<.0005$], medium: 532~ms [$t(26)=1.96, p=0.061$] marginal).
+
+This implies that it takes longer to access medium and long spaced representations compared to massed and short spaced conditions.
 
 \subsubsection{ERP discussion}
 
