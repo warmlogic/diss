@@ -14,3 +14,5 @@ diss*.pdf
 *.*~
 *.cb
 *.cb2
+*.lof
+*.toc
