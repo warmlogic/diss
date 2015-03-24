@@ -1,28 +1,13 @@
-%\documentclass[defaultstyle,11pt]{thesis}
-% \documentclass[doc]{apa6}
-\documentclass[man,floatsintext,draftfirst,12pt]{apa6}
-% \documentclass[man,floatsintext,12pt]{apa6}
-% \documentclass[man]{apa}
-%\documentclass[jou]{apa}
-%\usepackage{pdfsync}
-%\documentclass[12pt]{article}
-\usepackage{apacite} % \cite<prefix>[suffix]{key1,key2}, \citeA, \citeNP,
-                     % \fullcite, \shortcite, \citeyear, \citeauthor, \nocite
-\usepackage{graphicx}
+\documentclass[defaultstyle,11pt]{thesis}
+
+\usepackage{amssymb}		% to get all AMS symbols
+\usepackage{graphicx}		% to insert figures
+
 \usepackage{color}
 \usepackage{soul} % \hl \ul \st \caps \so
-%\usepackage{amsmath}
-%\usepackage{url}
-%\usepackage{epstopdf}
-% \usepackage[margin=1.0in]{geometry}
-%\usepackage[left=1in,top=1in,right=1in,bottom=1in,nohead]{geometry}
-% \usepackage{setspace}
-%\doublespacing
-% \setstretch{1.85}
-%\renewcommand{\baselinestretch}{1.85}
-% \usepackage{multirow}
 \usepackage{float}
-
+\usepackage{apacite} % \cite<prefix>[suffix]{key1,key2}, \citeA, \citeNP,
+                     % \fullcite, \shortcite, \citeyear, \citeauthor, \nocite
 \usepackage{changebar}
 % \nochangebars
 
@@ -35,90 +20,70 @@
    /Keywords (Spacing effect, SME, EEG, ERP,
    oscillations, encoding, learning)
 }
+%%%%%%%%%%%%   All the preamble material:   %%%%%%%%%%%%
 
-   % /Keywords (Subsequent memory effects, SME, Dm, EEG, ERP,
-   % oscillations, encoding, learning)
+\title{Distributed practice and distributed representations: Investigating the spacing effect using EEG}
 
-% \title{Distributed practice and distributed representations:
-%   Successful memory formation toward a predictive model}
+\author{M.\ V.}{Mollison}
 
-\title{Distributed practice and distributed representations:
+\otherdegrees{B.A., Brandeis University, 2005 \\
+	      M.S., University of Colorado Boulder, 2010}
 
-Investigating the spacing effect using EEG}
+\degree{Doctor of Philosophy}		%  #1 {long descr.}
+	{Ph.D., Cognitive Neuroscience}		%  #2 {short descr.}
 
-\shorttitle{Dissertation}
+\dept{Department of}			%  #1 {designation}
+	{Psychology and Neuroscience}		%  #2 {name}
 
-% \rightheader{Dissertation}
+\advisor{Prof.}				%  #1 {title}
+	{Tim Curran}			%  #2 {name}
 
-\leftheader{Mollison}
+\reader{Prof.~Alice F. Healy}		%  2nd person to sign thesis
+\readerThree{Prof.~Albert Kim}		%  3rd person to sign thesis
+\readerFour{Prof.~Leaf Van Boven}		%  3rd person to sign thesis
+\readerFive{Prof.~Michael C. Mozer}		%  3rd person to sign thesis
 
-\author{Matthew V. Mollison}
+\abstract{  \OnePageChapter	% because it is very short
 
-\affiliation{University of Colorado Boulder}
+% Often the abstract will be long enough to require
+% more than one page, in which case the macro
+% ``$\backslash$OnePageChapter'' should {\it not} be used. But this one isn't, so it should.
 
-\abstract{%
-  %\singlespacing
-
-\cbstart
 The spacing effect shows that studying information at distributed intervals leads to better long-term memory than continuously studying over the same cumulative amount of time.
 Prior research has not made explicit predictions about neural activity in the EEG domain that should occur at different study repetition lags under different spacing effect theories.
 Knowledge about neural patterns underlying the spacing effect can shed light on why this effect occurs, supporting or challenging the hypotheses presented here.
 One main purpose of this thesis is to make these predictions in terms of the neural activity expected under different spacing effect hypotheses, and to test them to the best of our ability.
-\cbend
+	}
 
-  %TODO: Explain difference between voltage and TF data. Explain power/desynchronization. Explain EEG classifiers (goal 4). How to keep track of so many dependent measures? Make topoplots print well in grayscale. APA bib doesn't have issue number. APA bib doesn't have journal abbreviations.
-  
-  \vspace{0.1in}
+\dedication[Dedication]{	% NEVER use \OnePageChapter here.
+	To all my peeps.
+	}
 
-  \textbf{Keywords: spacing effect; subsequent memory effects; EEG; ERP;
-   oscillations; encoding; learning}
+\acknowledgements{	\OnePageChapter	% *MUST* BE ONLY ONE PAGE!
+	My acknowledgments to Christopher Bird and Krystin Corby, and a multitude of undergraduate research assistants in helping run the experiment.  Thanks to Jeremy Manning for similarity analysis assistance.
 
-% subsequent memory effects; encoding; learning; levels of processing; transfer-appropriate processing; EEG; ERP; oscillations; machine learning; pattern classification; multivariate
+    Research supported by NSF grant SMA-1041755 to the Temporal Dynamics of Learning Center.
 
-}
+    %Here's where you acknowledge folks who helped.
+	%But keep it short, i.e., no more than one page,
+	%as required by the Grad School Specifications.
+	}
 
-% \authornote{~}
+% \IRBprotocol{E927F29.001X}	% optional!
 
-\ifapamodeman{%
-  \note{
-    \begin{flushleft}
-      Contact\\
-      University of Colorado Boulder, Department of Psychology \& Neuroscience\\
-      Muenzinger D244, 345 UCB, Boulder, CO 80309\\
-      e-mail: matthew.mollison@colorado.edu\\
-      phone: (617)~899--8317\\
-      fax: (303)~492--2967\\
-      Version of \today
-    \end{flushleft}
-  }}
-{ %else, i.e., in jou and doc mode
-  % \note{Submitted: \today}
-}
+% \ToCisShort	% use this only for 1-page Table of Contents
 
-% \journal{Manuscript in preparation.}
+% \LoFisShort	% use this only for 1-page Table of Figures
+% \emptyLoF	% use this if there is no List of Figures
 
-% \volume{Please do not quote or cite without permission.}
+% \LoTisShort	% use this only for 1-page Table of Tables
+\emptyLoT	% use this if there is no List of Tables
 
-% \ccoppy{Version of \today.}
-
-% \copnum{Comments welcome.}
-
-% Quoting directly from our department's requirements should give an
-% overview of what I need to accomplish, though there are no specific
-% format or length requirements, as they are to be discussed with my
-% advisor: ``Typically the proposal will include introduction,
-% methods, and preliminary results for any completed experiments;
-% along with methods, hypotheses, and predictions for planned
-% experiments.''  That is, it will be basically structured like an
-% experimental psychology paper, albeit without many results. I will
-% probably aim for 10 to 15 pages, single-spaced and not including the
-% abstract or references, but again, length is not of much concern.
-
-% % Remove issue number from all citations: http://tex.stackexchange.com/questions/170070/biblatex-apa-style-shouldnt-show-issue-number-in-references-for-journal-publica
-% \AtEveryBibitem{\ifentrytype{article}{\clearfield{number}}{}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%       BEGIN DOCUMENT...         %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\maketitle
 
 \input specific_aims.tex
 \input background_sig.tex
@@ -129,8 +94,22 @@ One main purpose of this thesis is to make these predictions in terms of the neu
 \input exp_2.tex
 \input general_discussion.tex
 
+%%%%%%%%%   then the Bibliography, if any   %%%%%%%%%
+%\bibliographystyle{plain}   % or "siam", or "alpha", etc.
+\bibliographystyle{apacite}   % or "siam", or "alpha", etc.
+% \nocite{*}		% list all refs in database, cited or not
+% \bibliography{refs}		% Bib database in "refs.bib"
 \bibliography{/Users/matt/Library/texmf/bibtex/bib/mvm_tex/mvm}
-% \bibliography{mvm}
-\bibliographystyle{apacite}
+%\bibliography{mvm}
+
+% % Remove issue number from all citations: http://tex.stackexchange.com/questions/170070/biblatex-apa-style-shouldnt-show-issue-number-in-references-for-journal-publica
+% \AtEveryBibitem{\ifentrytype{article}{\clearfield{number}}{}}
+
+%%%%%%%%%   then the Appendices, if any   %%%%%%%%%
+% \appendix
+% \input appendixA.tex
+% \input appendixB.tex
+
 
 \end{document}
+

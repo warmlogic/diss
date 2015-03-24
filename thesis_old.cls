@@ -5,8 +5,6 @@
 %%	Preparation of Master's Thesis and Doctoral Dissertations
 %% Version 1.00 written by John P. Weiss, 1997
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%	version 1.12, Hongcheng Ni, March 2014 -- added title before
-%%              the advisor's name in the signature page
 %%	version 1.11, Bruce Fast, April 2008 -- changed left margin
 %%		from 1.75" to 1", and added \IRBprotocol option
 %%	version 1.10, E. Joshua Rigler, January 2003 -- making it safe
@@ -32,17 +30,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{thesis}[2014/03/24]	% version 1.12
+\ProvidesClass{thesis}[2010/04/30]	% version 1.11
 
 \typeout{}
 \typeout{--------------------------------------------------------------}
-\typeout{ +---+ Thesis Style (thesis.cls) version 1.12}
+\typeout{ +---+ Thesis Style (thesis.cls) version 1.11, April 2010}
 \typeout{ +---+ for University of Colorado Ph.D. theses/dissertations.}
 \typeout{ * Conforms to the University of Colorado at Boulder Graduate}
 \typeout{ * School "SPECIFICATIONS for Preparation of Master's Thesis}
-\typeout{ * and Doctoral Dissertations" (rev. March 2014).}
+\typeout{ * and Doctoral Dissertations" (rev. April 2010).}
 \typeout{--------------------------------------------------------------}
-\typeout{ URL: http://www.colorado.edu/oit/software-hardware/tex-latex}
+\typeout{ URL: http://www.colorado.edu/its/docs/latex/ThesisClass}
 \typeout{}
 
 % Certain options are not handled here but are passed on to report.cls
@@ -1050,7 +1048,7 @@
 		\th@deptname
 	\end{center}
 	\vspace*{2mm}
-	\th@signature{\th@advisortitle\ \th@advisor}
+	\th@signature{\th@advisor}
 	\th@signature{\th@reader}		% REQUIRED.
 	\ifthenelse{\equal{\th@readerThree}{none}}{\relax}
                 {\th@signature{\th@readerThree}} % optional
@@ -1254,3 +1252,4 @@
 }
 \endinput
 %%%%%%%%%%%%%%%% End of file ``thesis.cls''
+
