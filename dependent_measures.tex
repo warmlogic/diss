@@ -12,7 +12,41 @@ Because the spacing effect predicts a long-term memory advantage for spaced comp
 \section{Neural data}
 
 \cbstart
-\hl{TODO: Explain a bit more about EEG here, including ERPs, power (particularly desynchronization), etc.}
+
+% \hl{TODO: Explain a bit more about EEG here, including ERPs, power (particularly desynchronization), etc.}
+
+% The present experiments investigate the cognitive processes and neural substrates by examining recordings of the brain's electrical activity
+% (the electroencephalogram, or EEG).  When the EEG is segmented into
+% brief windows of activity that are time-locked to an event such as the
+% presentation of stimuli, these epochs are called event-related
+% potentials (ERPs).  In relation to a psychology experiment, ERPs are
+% subdivided into conditions based on specific criteria and are averaged
+% within these conditions to show the common voltage deflections, or ERP
+% components, in the EEG signal associated with each condition.
+% Comparisons between conditions can help determine when and where cognitive processes change across conditions.
+
+EEG recordings provide a fine-grained time course of the electrical
+activity of neurons, on the order of milliseconds, which is important
+for determining when neural processes occur with respect to behavioral
+responses.  For analysis, EEG is typically averaged across brief
+epochs that are time-locked to events such as stimulus presentations,
+and these event-related potentials (ERPs) are compared between
+conditions to show differences in voltage deflections (known as ERP
+components).  Particular ERP components, which dissociate in time
+(relative to stimulus presentation) and space (at particular scalp
+electrodes), have come to be associated with cognitive processes.
+
+Similarly, decomposing EEG into time--frequency measures relative to
+stimulus onset using methods such as wavelet transforms or multitapers
+(think Fourier transforms, but estimating the amplitude, or power, of
+activity at a particular frequency across time) provides a more
+nuanced (and higher-dimensional) representation of neural activity.
+This allows for an investigation of the oscillatory dynamics of neural
+networks.  Oscillatory power is used to measure both local synchronous
+activity and long-range communication between brain regions, and
+different frequency bands have also come to be associated with particular
+cognitive processes.  Power is typically measured as a change relative to a pre-stimulus baseline, so when a frequency band increases in power (synchronizes) or decreases in power (desynchronizes), this simply means that the amplitude in that frequency band was higher or lower compared to the baseline.
+
 \cbend
 
 
