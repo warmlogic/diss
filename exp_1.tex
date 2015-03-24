@@ -5,9 +5,9 @@
 This experiment provides an investigation into how neural activity during paired associate learning changes as a function of massed or spaced practice.
 % and how it is further modulated by subsequent memory performance
 
-\subsection{Method}
+\section{Method}
 
-\subsubsection{Participants}
+\subsection{Participants}
 
 % 1-7 were technically pilots
 
@@ -27,17 +27,17 @@ Thirty-seven University of Colorado Boulder undergraduates participated in the e
 % Human Research Committee
 Institutional Review Board guidelines.
 
-\subsubsection{Materials}
+\subsection{Materials}
 
 The experimental stimuli were randomly selected from 1521 common nouns (the PEERS word pool\footnote{http://memory.psych.upenn.edu}) and 832 images (two categories: 371 face images and 461 living room scenes).  Face images were shoulder-up photographs taken in front of an off-white background with the center of the face generally in the center of the image \cite{PhilEtal2000}.  Scene images were photographs taken from the SUN image database within the ``Living Room'' category \cite{XiaoEtal2010}.  Words were presented in Courier font (size 24) and all images were cropped to be the same size ($480\times320$ pixels).  Stimuli were presented on a 17-in flat-panel display with a resolution of $1024\times768$ (60 Hz frame rate) placed 1~m in front of the participants.  All portions of the display not occupied by stimuli or text were filled with gray pixels.
 
 The experiment was programmed in MATLAB (versions R2012b and R2014a; The MathWorks, Inc., Natick, MA) using our experimental framework\footnote{https://github.com/warmlogic/expertTrain} and was presented using Psychtoolbox \cite{Brai1997}.
 
-\subsubsection{Design}
+\subsection{Design}
 
 Experiment~1 consisted of six blocks of four experimental phases (Figure~\ref{fig:space_exp}): exposure, study, distractor, test.  The session, including application of the electrode net and running in the task, lasted approximately 2.5 hours.  Stimuli were randomly shuffled prior to creating the list for each phase at the beginning of the session.  The study phase contained the conditions that were manipulated within subjects, namely the viewing of spaced and massed paired associates.
 
-\subsubsection{Procedure}
+\subsection{Procedure}
 
 An electrode net was applied to each participant's head, and the session began with a shortened practice version of the experiment to familiarize participants with the study and test procedures (two spaced, two massed, and two single presentation items, with a lag of 4 items between spaced presentations; two new images were included at test).
 
@@ -99,11 +99,11 @@ Finally, in the test phase, participants performed recognition and cued recall t
 
 % There were approximately 7~min between studying a spaced or massed word--image pair and seeing that image on the test list.
 
-% \subsubsection{Application to specific aims}
+% \subsection{Application to specific aims}
 
 % \hl{(Add text here.)}
 
-\subsubsection{Electrophysiological recordings and data processing}
+\subsection{Electrophysiological recordings and data processing}
 
 \begin{figure}
   \centering
@@ -135,7 +135,7 @@ The repetition (second presentation) is therefore the critical part of the trial
 % General encoding mechanisms active during spaced and massed repetitions should be similar.
 
 
-\subsection{Results}
+\section{Results}
 
 % SPACE008 did not perform the task properly
 
@@ -151,7 +151,7 @@ All analyses contingent on subsequent memory are split by whether words were rec
 Significant results are reported, and unreported results can be assumed to not be significant.
 When an ANOVA contains a factor with more than two levels, the reported values are adjusted for violations of assumptions of sphericity using the Greenhouse-Geisser procedure \cite{GreeGeis1959} even if the factors did not violate Mauchly's test of sphericity.
 
-\subsubsection{Behavioral results}
+\subsection{Behavioral results}
 
 On average, scenes were rated as more appealing compared to faces ($M=2.99$ vs $M=2.01$) [$t(30)=9.13, p=3.6e^{-10}$].  The average response times during the exposure/rating phase was faster for faces (1027~ms) than scenes (1115~ms) [$t(30)=3.62, p=.0011$].  Because stimuli were presented for 1000~ms, participants had an overall tendency to respond after image offset; this is simply to note that attention is likely paid to the stimulus throughout its presentation, which is relevant to using these trials to train a classifier to discriminate between EEG activity related to faces and scenes.
 
@@ -159,7 +159,7 @@ On average, scenes were rated as more appealing compared to faces ($M=2.99$ vs $
 
 For the test phase, a two-way repeated measures ANOVA was run on image recognition discrimination ($d'$) with factors of spacing and image category.  There was a main effect of spacing [$F(1,30)=17.4, p=.00024, MSE=0.0756$] such that spaced images ($d'=2.95$) were recognized better than massed images ($d'=2.74$), and a main effect of image category [$F(1,30)=104, p=3.05e^{-11}, MSE=0.224$] such that faces ($d'=3.32$) were recognized better than scenes ($d'=2.37$).  An ANOVA with the same factors was run on cued recall hit rate (for old items called ``old'').  There was only a main effect of spacing [$F(1,30)=81.8, p=4.51e^{-10}$] such that spaced words ($M=49.8\%$) were recalled better than massed words ($M=36.5\%$).  Words paired with faces and scenes were recalled at the same rate (faces: $M=43.7\%$; scenes: $M=42.5\%$).  Thus, there are clear spacing effects for both recognition and recall.
 
-\subsubsection{ERP results}
+\subsection{ERP results}
 
 ERP analyses were performed on $40$~Hz low-pass filtered data using repeated measures ANOVAs; pairwise comparisons were made with $t$-tests.  Peak electrodes and latencies for the ERP effects were found by collapsing all word presentation events together (using grand averages), finding the electrode with the peak voltage within the effect time ranges, and then locating the peak latency using that electrode and its immediate neighbors.  The peak electrodes had to show typical effect patterns, and ended up being near the electrodes used by \citeA{VanSEtal2007}: Cz for the N400 and a parietal electrode just to the right of Pz (electrode~77) for the LPC effect.  The N400 peaked at $372$~ms (Figure~\ref{fig:N400}).  The LPC peaked at $596$~ms (Figure~\ref{fig:LPC}).  For visual N1, the electrode had to show negative peaks between $150$ and $250$~ms and it should have precedence in the literature.  Electrode~58 (T5) peaked at $172$~ms (Figure~\ref{fig:N1}).  Analyses use these peak electrodes and neighbors; words during the study phase are analyzed because ERPs for images would likely be affected due to immediately following word presentations.
 
@@ -302,7 +302,7 @@ For latency, there was a significant interaction of spacing $\times$ presentatio
 
 % There was also a marginal main effect of memory for latency [$F(1,26)=2.96$, $p=.097$].  Subsequently recalled items ($M=602$~ms) tended to peak later than those that were forgotten ($M=589$~ms).  This is probably influenced by spaced repetitions peaking later and memory being better for spaced items on average.
 
-\subsubsection{ERP discussion}
+\subsection{ERP discussion}
 
 The N1 showed that recalled spaced word repetitions received the most attention; they were more negative compared to the other conditions (repetitions of recalled massed words and forgotten spaced and massed words).
 % The pattern for subsequently recalled \textit{vs.} forgotten spaced repetitions indicates that a larger N1 means more attention was paid to that item.
@@ -321,7 +321,7 @@ The typical interpretation of the LPC effect is that it is more positive during 
 % Surely spaced items were not forgotten even though they did not show an LPC effect, so this effect must not be indexing recollection (which makes sense when comparing its topography to that of the parietal old/new effect, which is typically more left parietal).
 In relation to the N400 results (semantic processing does not need to engage for primed representations), it seems possible that the LPC indexes the information that is in working memory.  This result does not seem to directly support any of the theories, unless the match to working memory is an indicator for processing to disengage (deficient processing).
 
-\subsubsection{Time--frequency results}
+\subsection{Time--frequency results}
 
 Spectral decomposition for time--frequency analyses (no low-pass filter) used a set of $38$ Morlet wavelets that were logarithmically spaced from $3$ to $80$~Hz; each wavelet had a width of $6$ cycles.  Trials were down-sampled to $50$~Hz after calculating power and were z-transformed relative to the distribution of all word stimuli with a reference time of $-300$ to $-100$~ms relative to stimulus onset.
 Only the pre-stimulus periods for words were used because the analogous reference time for images would be while words were on the screen.
@@ -462,7 +462,7 @@ A main effect of time [$F(2,44)=12.9, p=5.28e^{-05}$] and a marginal main effect
 \textit{Image, lower beta}: Across 78 electrodes (Figure~\ref{fig:word_img_beta_low}, bottom), lower beta showed main effects of memory [$F(1,22)=20.2, p=.00018$] (recalled had a power decrease) and time [$F(2,44)=29.3, p=1.14e^{-08}$] (less power in the middle time window).
 
 
-\subsubsection{Time--frequency discussion}
+\subsection{Time--frequency discussion}
 
 Overall, there was higher theta power for spaced than massed repetitions during both words (late) and images (early).
 % \hl{(AH asked: why difference in time for words and images?)}
@@ -510,7 +510,7 @@ Across this range of frequency bands, our results show that spaced repetitions i
 
 % Upper alpha effect is the same as \citeA{VanSEtal2007}.
 
-\subsubsection{Similarity results}
+\subsection{Similarity results}
 
 While the ERP and time--frequency results reveal that massed representations are accessed more quickly but perhaps to a lesser extent semantically than spaced representations, the nature of this representation is still unclear.  Are spaced repetitions remembered better due to essentially a repetition effect (in line with study-phase retrieval), or does temporocontextual drift play a role in encoding the repetition in a more variable manner (in line with contextual variability)?
 
@@ -570,7 +570,7 @@ Finally, the three-way interaction was marginal [$F(4,108)=2.42, p=.0535$] and i
   %Figure~\ref{fig:sim_pow_spacXmemXtime}
 \end{figure}
 
-\subsubsection{Similarity discussion}
+\subsection{Similarity discussion}
 
 % Based on measurements of neural similarity.
 It is clear that the way massed and spaced stimuli are processed and represented across their repetitions is different.  Surprisingly, the patterns are different for voltage and time--frequency data.  It is difficulty to know exactly what a decrease in similarity means; perhaps it indicates a decrease in processing, or perhaps it indicates more variable processing.  For voltage, it seems that spaced repetitions tend to induce a consistent representation across time (which might support the study-phase retrieval account) while massed repetitions become much more variable either because noise is added to the system (a possible explanation supporting deficient processing), they tend to induce a more variable representation (supporting contextual variability), or different neural/cognitive processes are engaged.
@@ -586,11 +586,11 @@ For the time--frequency analysis, the increase in similarity leading to the subs
 
 % Perhaps it is the case that cued recall relies more on associative strength and less on context \cite[p.~107]{DelaEtal2010}.
 
-% \subsubsection{Electrophysiological results: Classification}
+% \subsection{Electrophysiological results: Classification}
 
 % Attempt to classify image-related activity during the word repetition.
 
-\subsection{Experiment~1 Discussion}
+\section{Experiment~1 Discussion}
 
 Behaviorally, participants showed a clear spacing effect for both recognition and recall, even using relatively short lags (compared to real-world learning).
 
