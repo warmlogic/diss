@@ -13,8 +13,6 @@ Because the spacing effect predicts a long-term memory advantage for spaced comp
 
 \cbstart
 
-% \hl{TODO: Explain a bit more about EEG here, including ERPs, power (particularly desynchronization), etc.}
-
 % The present experiments investigate the cognitive processes and neural substrates by examining recordings of the brain's electrical activity
 % (the electroencephalogram, or EEG).  When the EEG is segmented into
 % brief windows of activity that are time-locked to an event such as the
@@ -28,16 +26,16 @@ Because the spacing effect predicts a long-term memory advantage for spaced comp
 EEG recordings provide a fine-grained time course of the electrical
 activity of neurons, on the order of milliseconds, which is important
 for determining when neural processes occur with respect to behavioral
-responses.  For analysis, EEG is typically averaged across brief
+responses.  EEG recorded across the scalp, as in the present experiments, represents the combined activity of millions of neurons.  For analysis, EEG is typically averaged across brief
 epochs that are time-locked to events such as stimulus presentations,
 and these event-related potentials (ERPs) are compared between
-conditions to show differences in voltage deflections (known as ERP
-components).  Particular ERP components, which dissociate in time
+conditions to show differences in voltage deflections, known as ERP
+components.  Particular ERP components, which dissociate in time
 (relative to stimulus presentation) and space (at particular scalp
 electrodes), have come to be associated with cognitive processes.
 
-Similarly, decomposing EEG into time--frequency measures relative to
-stimulus onset using methods such as wavelet transforms or multitapers
+Similarly, decomposing EEG into time--frequency measures using methods such as wavelet transforms
+%or multitapers
 (think Fourier transforms, but estimating the amplitude, or power, of
 activity at a particular frequency across time) provides a more
 nuanced (and higher-dimensional) representation of neural activity.
@@ -45,7 +43,7 @@ This allows for an investigation of the oscillatory dynamics of neural
 networks.  Oscillatory power is used to measure both local synchronous
 activity and long-range communication between brain regions, and
 different frequency bands have also come to be associated with particular
-cognitive processes.  Power is typically measured as a change relative to a pre-stimulus baseline, so when a frequency band increases in power (synchronizes) or decreases in power (desynchronizes), this simply means that the amplitude in that frequency band was higher or lower compared to the baseline.
+cognitive processes.  Power can be measured as a change relative to a pre-stimulus baseline, so when a frequency band increases in power (synchronizes) or decreases in power (desynchronizes), this means that the amplitude in that frequency band was higher or lower compared to the baseline.
 
 \cbend
 
@@ -75,7 +73,8 @@ The N400 ERP component (negative central peak)
 %is associated with the processing of meaning, and
 is affected by semantic processing and priming \cite<for a review, see>{KutaFede2011}.  Performing a task involving semantic analysis will produce a more negative N400, linking it to the activation of semantic information \cite{KutaHill1980}.  The component is also linked to semantic anomalies, but in general, the N400 is thought to reflect the dynamic construction of semantic meaning as part of a larger distributed system (as opposed to being a direct measure of accessing the meaning of a stimulus).
 
-N400 effects are seen in repetition paradigms where the component attenuates to repetition events compared to initial presentations \cite{KimEtal2001,OlicEtal2000,VanSEtal2007}; voltages becomes more negative as lag between repetitions increases.  The amount the component attenuates to a stimulus repetition or to a target stimulus following a semantic priming stimulus reveals ``how much of the information normally elicited by that stimulus is already active'' \cite[p.~23]{KutaFede2011}.  Spaced repetitions elicit an N400 (and thus semantic activation processes) whereas this does not occur for massed repetitions since the information is still in working memory \cite{VanSEtal2007}.  We would expect this repetition attenuation to be a factor under deficient processing since failing to receive additional semantic processing events is one way subsequent memory could be worse for these items, \hl{(but would also simply expect this to occur for any immediate repetition)}.
+N400 effects are seen in repetition paradigms where the component attenuates to repetition events compared to initial presentations \cite{KimEtal2001,OlicEtal2000,VanSEtal2007}; voltages becomes more negative as lag between repetitions increases.  The amount the component attenuates to a stimulus repetition or to a target stimulus following a semantic priming stimulus reveals ``how much of the information normally elicited by that stimulus is already active'' \cite[p.~23]{KutaFede2011}.  Spaced repetitions elicit an N400 (and thus semantic activation processes) whereas this does not occur for massed repetitions since the information is still in working memory \cite{VanSEtal2007}.  We would expect this repetition attenuation to be a factor under deficient processing since failing to receive additional semantic processing events is one way subsequent memory could be worse for these items.
+%\hl{(TODO? but would also simply expect this to occur for any immediate repetition)}.
 
 % \cbstart
 % A frontal effect called the FN400 (similar to but different from the N400) is related to recognition memory, specifically in relation to whether this is familiar (i.e., old or new; the component attenuates for old items) \cite{Curr2000,Meck2006,RuggCurr2007}.  The FN400 is unlikely to be affected by attentional fluctuations during encoding \cite{Curr2004} and should simply differentiate old/new recognition.  Since participants are asked to make semantic associations in the present experiments, and because prior work has been done with the N400 in terms of stimulus repetition paradigms, we are going to interpret activity around 400~ms in terms of semantic processing.
