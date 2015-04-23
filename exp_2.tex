@@ -451,7 +451,7 @@ The patterns of neural similarity results for both voltage and time--frequency d
 Perhaps the decreased similarity comes from extraneous information being activated during massed presentations, thereby making them more variable.  This could align with the stimuli being thought about in a different way, which was proposed regarding the theta band negative SME (main effect).
 Regarding contextual variability, from a theoretical standpoint there is no good reason for massed repetitions to have more variable representations because context has not drifted.  Because we know that, on average, memory for spaced items is better than for massed items, and because consistent representation should occur under study-phase retrieval, this theory seems to help explain why the spacing effect occurs.
 
-For the similarity of time--frequency data, in the same way it was discussed for Experiment~1, it makes sense that longer lags would have lower similarity because context has drifted for these repetitions more than for short lags.  This is what we saw---medium and long spaced items were less similar than massed and short spaced items---a pattern we would expect to see under contextual variability.  There was no three-way interaction between spacing, time, and memory as in Experiment~1.  The remaining effects seems to neither support nor challenge the hypotheses.
+For the similarity of time--frequency data, in the same way it was discussed for Experiment~1, it makes sense that longer lags would have lower similarity because context has drifted for these repetitions more than for short lags.  This is the cleanest pattern we can make out in a complex set of results---that medium and long spaced items were less similar than massed and short spaced items---a pattern we would expect to see under contextual variability.  There was no three-way interaction between spacing, time, and memory as in Experiment~1.  The remaining effects seems to neither support nor challenge the hypotheses.
 
 
 % It does not seem like noise would be added to the system when a massed stimulus received semantic processing at the repetition (denoted by the desynchronized upper alpha and lower beta bands, examined earlier),
@@ -465,16 +465,52 @@ For the similarity of time--frequency data, in the same way it was discussed for
 
 \section{Experiment~2 discussion}
 
+% Same:
+% N1: a priori space x mem x pres: Rec sp12 < Rec mass
+% N400: sp x pres: sp < mass
+% N400: sp x pres x mem: rec sp12 < forg sp 12
+% LPC: volt: no 2-way sp x pres, but MEs followed this: mass > sp, rep > ini
+% LPC: latency:  M rep peak earlier than med/long, short only marginal (WM?)
+
+% theta: word: sp x time: sp32 maintain sync, others+massed decrease. (NOVEL)
+% theta: word: in 3-way pairwise (ns): rec sp32 > others (NOVEL, spacing++)
+% theta: img: same MEs
+
+% alpha lo: word, img: all same
+% alpha hi: word: mostly same, without being too much of a stickler about time windows.
+% beta low: same for effects that involve spacing
+
+% sim: volt: same
+% sim: tf: same except no 3-way
+
+% Different:
+% LPC: volt: SME decreases with lag. less info at longer spacings. (NOVEL)
+
+% alpha hi: img: no 3-way, but do see similar pattern of largest SME in late window.
+% alpha hi: img: mem ME (r<f), no ME of spac (no s<m)
+
+% sim: tf: no 3-way (no sp x time x mem; overall pattern is unclear)
+
 \cbstart
 The purpose of this experiment was to look for lag effects in relation to neural activity to better interpret data patterns in the context of the three theories.
-Behaviorally, we saw exactly what was expected: performance increased significantly as lag increased.  The EEG effects mostly followed the patterns of Experiment~1.  TODO The main differences were
+Behaviorally, we saw exactly what was expected: performance increased significantly as lag increased.  Our hope is to discover some of the neural correlates behind these patterns. 
 
 % TODO: Were memory effects any stronger? (mentioned in Exp 1 discussion); think I'm going to skip this for now.
 
+Again, we are interested in the neural activity related to subsequent memory for spaced and massed repetitions, as this is the critical point where spaced and massed items differ.  Differences between the experiments are covered in the General Discussion section below, but overall the EEG effects followed the patterns of Experiment~1.
 
-Across the ERP results, it seems like information that is already primed and in working memory and does not need to be retrieved (massed) does not gain the repetition advantage of information that needs to be retrieved (spaced).
+Indicators of early attentional processes again revealed that spaced repetitions receive more attention: the N1 ERP component was more negative compared to massed for the medium (12) spaced condition, which had the same spacing as in Experiment~1.  This supports deficient processing of massed repetitions relative to spaced.  The N1 may be an indicator for semantic processing to engage, reflected by the N400 and upper alpha band.  N400 voltage was more negative for spaced compared to massed repetitions overall.  Additionally there was an interaction with memory for the medium (12) spaced condition: recalled repetitions were more negative than forgotten.  Thus it seems that memory is better when semantic processing engaged to a greater extent, and this occurs more for spaced repetitions than massed.  Upper alpha did not show the three-way interaction (spacing $\times$ presentation $\times$ memory), but we did see that recalled image repetitions desynchronized more than forgotten images, indicating more semantic processing for the recalled condition.
 
-For many effects there was no difference between spaced condition lags, which was not what we were hoping for.  However, increased theta power is associated with memory retrieval, and it varied positively with repetition lag (as spacing increased).  Additionally, in the voltage similarity analysis, a more similar neural state during the repetition (compared to the initial presentation) leads to better subsequent memory.   Overall, the spacing effect seems to be more consistently driven by retrieval of a prior occurrence than by any other process, and therefore it seems that study-phase retrieval is a key part of the spacing effect.
+It seems that the LPC is an indicator of when information is primed and in working memory.  Massed repetitions peaked earlier and to a greater extent than spaced repetitions.  Interestingly, this varied with lag, though not in a full gradient: the massed peak was only earlier compared to medium and long spaced repetitions, indicating that short spaced items may still be somewhat primed.  Also, the spacing $\times$ memory interaction showed that the SME decreased with lag, which might indicate less information being recognized at longer lags.
+% there was also only a voltage difference for massed compared to short (2) and medium (12) spaced items, indicating...
+Theta aligns with these effects, showing retrieval processes occurring for spaced items (maintaining synchrony across time, specifically for the long (32) spaced repetitions) but not for massed items (desynchronizing across time).  This supports study-phase retrieval.  Regarding the long (32) spaced items, this may be an indicator of where this condition gets its advantage, especially considering that recalled long (32) spaced word repetitions showed more theta power than all other conditions.
+The overall pattern of effects shows that when information is primed and in working memory it does not need to be retrieved (massed), and these items do not gain the repetition advantage of information that needs to be retrieved and processed (spaced).
+
+% For many effects there was no difference between spaced condition lags, which was not what we were hoping for.
+
+In the voltage similarity analysis, a more similar neural state during the repetition (compared to the initial presentation) leads to better subsequent memory.  This again support study-phase retrieval (spaced) and deficient processing (massed), as well as challenges contextual variability which would predict a decrease in similarity for spaced items.  The time--frequency similarity results were difficult to interpret, but they do not seem to help with the interpretation of the summarized results.
+
+Overall, the spacing effect seems to be most consistently driven by the retrieval of a prior occurrence and additional semantic processing, and therefore it seems that study-phase retrieval is a key part of the spacing effect.  Massed items do seem to be put at a disadvantage via deficient processing, though it seems likely that effects like these may only occur in a relatively unnatural experimental setting.
 \cbend
 
 % No difference between spaced: N1, N400, LPC
