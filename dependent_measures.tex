@@ -22,17 +22,17 @@ Because the spacing effect predicts a long-term memory advantage for spaced comp
 EEG recordings provide a fine-grained time course of the electrical
 activity of neurons, on the order of milliseconds, which is important
 for determining when neural processes occur with respect to behavioral
-responses.  EEG recorded across the scalp, as in the present experiments, represents the combined activity of millions of neurons.  For analysis, EEG is typically averaged across brief
+responses.  EEG recorded at the scalp, as in the present experiments, represents the combined activity of millions of neurons.  For analysis, EEG is typically averaged across brief
 epochs that are time-locked to events such as stimulus presentations,
 and these event-related potentials (ERPs) are compared between
 conditions to show differences in voltage deflections, known as ERP
 components.  Particular ERP components, which dissociate in time
-(relative to stimulus presentation) and space (at particular scalp
-electrodes), have come to be associated with cognitive processes.
+(relative to stimulus presentation) and space (at particular
+electrodes), have come to be associated with different cognitive processes.
 
 Similarly, decomposing EEG into time--frequency measures using methods such as wavelet transforms
 %or multitapers
-(think Fourier transforms, but estimating the amplitude, or power, of
+(like Fourier transforms, but they estimate the amplitude, or power, of
 activity at a particular frequency across time) provides a more
 nuanced (and higher-dimensional) representation of neural activity.
 This allows for an investigation of the oscillatory dynamics of neural
@@ -49,7 +49,7 @@ cognitive processes.  Power can be measured as a change relative to a pre-stimul
 
 % This goal assesses how attentional and semantic processes are modulated by spaced and massed presentation, and mainly speaks to the deficient processing account.
 
-Assessing how attentional and semantic processes are modulated by spaced and massed presentation is central to the deficient processing theory.
+Assessing how attentional and semantic processes are modulated by spaced and massed presentation is central to the deficient processing hypothesis.
 % Though deficient processing implicates a deficiency for encoding (and subsequently remembering) massed items as opposed to an enhancement for spaced items \cite{DelaEtal2010}, it is worthwhile to investigate because recent research has given this hypothesis considerable attention \cite{BrauRubi1998,CallSchw2010,VanSEtal2007,WagnEtal2000,XueEtal2011}.
 The present understanding is that an involuntary decrease in stimulus processing occurs for repetitions of recently encountered (massed) items, while this does not occur for spaced repetitions.
 % Along these lines, functional magnetic resonance imaging (fMRI) studies that involve stimulus repetitions have embraced the idea that neural repetition suppression may lead to the spacing effect \cite{CallSchw2010,WagnEtal2000,XueEtal2011}.
@@ -91,21 +91,23 @@ can address all three theories, but provides a particularly important assessment
 
 % \hl{(I mention the FN400 but never analyze it as a memory effect.)}
 
-The parietal old/new effect (late positive peak, also sometimes called the late positive component/complex or LPC) is an ERP component that indexes conscious recollection.  Its amplitude correlates with the subjective amount of retrieved information \cite{VilbEtal2006,Wild2000,WildRugg1996} and is more positive for information that is subsequently remembered \cite{RuggEtal1998a}.
+The late positive component/complex (LPC; also called the parietal old/new effect) is an ERP component that indexes conscious recollection.  Its amplitude correlates with the subjective amount of retrieved information \cite{VilbEtal2006,Wild2000,WildRugg1996} and is more positive for information that is subsequently remembered \cite{RuggEtal2002,WagnEtal1999}.
 % It is similar in latency and topography to what is termed the late parietal component (LPC) by the only EEG investigation of the spacing effect \cite{VanSEtal2007}, but these authors state that it may be related to the P300 such that it reflects stimulus classification speed (``template matching'' to a representation stored in memory).
 The LPC is also seen in short-term repetition experiments \cite{OlicEtal2000,VanSEtal2007},
 % OlicEtal2000: 10-40s
 and is linked to the conscious recognition of an item.
 % Under deficient processing,
 % both explanations should show the same pattern: whether the massed item has a stronger memory strength or is more quickly classified as having been seen before,
-There should be a larger and earlier effect for massed than spaced repetitions relative to new items (or initial presentations) due to the higher perceived memory strength of massed items.  This falls under the idea that massed items are primed and in working memory while spaced items are not.  This effect would support deficient processing if it is an indicator to not process the information further.
+There should be a larger and earlier effect for massed than spaced repetitions relative to new items (or initial presentations) due to the higher perceived memory strength of massed items.  This falls under the idea that massed items are primed and in working memory while spaced items are not.  This effect would support deficient processing if it is an indicator not to process the information further.
 
 % % dropping this to keep it simple
 % On the other hand, study-phase retrieval requires episodic retrieval during a spaced repetition while deficient processing and contextual variability do not.  Because spaced repetitions need to be retrieved from long-term memory but massed do not, if the LPC indexes retrieval then study-phase retrieval theory might predict a larger effect for spaced repetitions than for massed.  Based on the prior stimulus repetition research showing a larger effect for massed items, we expect the deficient processing explanation to occur.
 
-Theta power (4--7~Hz; frontal, temporal, and parietal) is related to memory formation and retrieval, particularly in medial temporal lobe regions (\citeNP{Klim1999,KlimEtal1996b,KlimEtal2006,LongEtal2014a,SedeEtal2003}; for a review, see \citeNP{MitcEtal2008a}).  It is also thought to reflect item--context binding \cite{HansEtal2009a,HansEtal2011a,StauHans2013,SummMang2005}.  Theta power typically increases during encoding for subsequently remembered items (a positive SME), though negative SMEs have been demonstrated (e.g., \citeNP{BurkEtal2013,LegaEtal2011}; for a review, see \citeNP{HansStau2014}).  Theta power should increase for spaced compared to massed repetitions, but for different reasons under each hypotheses.  Under deficient processing, theta would decrease for massed repetitions simply because the item is not being retrieved or re-encoded well.
+Theta power (4--7~Hz; frontal, temporal, and parietal) is related to memory formation and retrieval, particularly in medial temporal lobe regions (\citeNP{Klim1999,KlimEtal1996b,KlimEtal2006,LongEtal2014a,SedeEtal2003}; for a review, see \citeNP{MitcEtal2008a}).  It is also thought to reflect item--context binding \cite{HansEtal2009a,HansEtal2011a,StauHans2013,SummMang2005}.  Theta power typically increases during encoding for subsequently remembered items (a positive SME), though negative SMEs have been demonstrated (e.g., \citeNP{BurkEtal2013,LegaEtal2011}; for a review, see \citeNP{HansStau2014}).
+
+Theta power should increase for spaced compared to massed repetitions, but for different reasons under each hypotheses.  Under deficient processing, theta would decrease for massed repetitions simply because the item is not being retrieved or re-encoded well.
 Under both contextual variability and study-phase retrieval, theta would increase for spaced repetitions because the intervening context (and the prior presentation in the latter case) is also encoded (new information, item--context binding).
-However, there is a difference between these theories: given that a repetition is properly re-encoded, in comparison to the initially encoded memory (Presentation 1), the ``contents'' of the two encoding events will be more similar under study-phase retrieval and more variable under contextual.  This brings us to the next topic.
+However, there is a difference between these theories: given that a repetition is properly re-encoded, in comparison to the initially encoded memory, the ``contents'' of the two encoding events will be more similar under study-phase retrieval and more variable under contextual.  This brings us to the next topic.
 
 % Another theta paper to read: \cite{HsieRang2014}
 
@@ -119,7 +121,8 @@ However, there is a difference between these theories: given that a repetition i
 We do not just want to know about attention, the extent of semantic processing, and memory strength; we also want to investigate the contents of memory and whether it evolves across study repetitions.
 We can address this by assessing whether the similarity of neural activity for an initial presentation and repetition is correlated with subsequent memory performance, and whether this similarity is modulated by spacing.  These assessments will bear on both study-phase retrieval and contextual variability.  This can be tested both as an effect of similarity (``Does greater similarity or greater variability in neural activations during encoding lead to better subsequent memory?'') and as an interaction with spacing (``Do spaced and massed repetitions benefit from greater similarity or greater variability during encoding?  Are there differences?'').
 
-Although each theory predicts better subsequent memory performance (recognition, recall, etc.) for spaced compared to massed learning (except at very long retention intervals) and naturally includes encoding mechanisms as reasons for the effect, not all implicate processing at the time of test as having an impact on memory performance.  The similarity between an item's study repetitions and its subsequent memory test event is a meaningful comparison for contextual variability and study-phase retrieval.  For a spaced item, encoding variability would predict that the test is similar to only one of the study presentations, while it would likely be similar to both under study-phase retrieval.  Comparisons for massed items would be more difficult to interpret since context would not have drifted much.
+% FUTURE:
+% Although each theory predicts better subsequent memory performance (recognition, recall, etc.) for spaced compared to massed learning (except at very long retention intervals) and naturally includes encoding mechanisms as reasons for the effect, not all implicate processing at the time of test as having an impact on memory performance.  The similarity between an item's study repetitions and its subsequent memory test event is a meaningful comparison for contextual variability and study-phase retrieval.  For a spaced item, encoding variability would predict that the test is similar to only one of the study presentations, while it would likely be similar to both under study-phase retrieval.  Comparisons for massed items would be more difficult to interpret since context would not have drifted much.
 
 % (e.g., an automatic \textit{vs} voluntary process, usually denoted by the effect occurring during incidental and intentional learning, respectively).
 
@@ -129,7 +132,9 @@ Although each theory predicts better subsequent memory performance (recognition,
 
 % \hl{If greater similarity between spaced repetitions compared to massed repetitions leads to better memory performance, SPR likely plays a role; if decreased similarity leads to better memory, CV likely plays a role.}
 
-There are different ways to measure the similarity of neural activity between individual events.  For example, Representational Similarity Analysis \cite<RSA;>{KrieEtal2008} has been used in the fMRI literature recently \cite<e.g.,>{XueEtal2010} but has hardly been applied to EEG \cite<e.g.,>{GroeEtal2012,SuEtal2012} and has never been used in a memory experiment.  Other multivariate analyses have been used in electrocorticography (ECoG, or intracranial EEG) in relation to contextual drift \cite<e.g.,>{MannEtal2011}, and would be suitable here if used appropriately.  Regardless of the method used, a measure of neural similarity will help assess the nature of neural representations detectable at the scalp.  A challenge of this analysis is that it is difficult to know whether similarity measures are comparing item features, contextual features, the currently engaged mechanisms, or some combination of these; this analysis would benefit from separating item and context features in neural representations.
+There are different ways to measure the similarity of neural activity between individual events.  For example, Representational Similarity Analysis \cite<RSA;>{KrieEtal2008} has been used in the fMRI literature recently \cite<e.g.,>{XueEtal2010} but has hardly been applied to EEG \cite<e.g.,>{GroeEtal2012,SuEtal2012} and has never been used in a memory experiment.  Other multivariate analyses have been used in electrocorticography (ECoG, or intracranial EEG) in relation to contextual drift \cite<e.g.,>{MannEtal2011}, and would be suitable here if used appropriately.  Regardless of the method used, a measure of neural similarity will help assess the nature of neural representations detectable at the scalp.  A challenge of this analysis is that it is difficult to know whether similarity measures are comparing item features, contextual features, the currently engaged mechanisms, or some combination of these.
+% FUTURE:
+% this analysis would benefit from separating item and context features in neural representations.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 % Classification
@@ -159,10 +164,15 @@ There are different ways to measure the similarity of neural activity between in
 
 The overarching goal of this thesis is to assess the major hypotheses for why the spacing effect occurs by examining data from experiments that capture this effect.
 % as supported by behavioral effects and patterns of neural activity predicted under spaced and massed learning.
-We recognize that we are relying on reverse inference to test these psychological theories of the spacing effect \cite{Pold2006,PoldWagn2004}: patterns of neural activity are used to make assumptions about active cognitive processes, as related to prior research.  Since there is so little research on the EEG correlates of the spacing effect, reverse inference provides an initial direction for our analyses.
-To briefly recap the factors that likely influence each theory, deficient processing emphasizes attention and semantic processing, contextual variability emphasizes contextual drift and study--test matching, and study-phase retrieval emphasizes episodic retrieval of the prior presentation during a repetition.
-We expect that both theory- and data-driven analyses of ERPs, oscillatory power, single trials, and study--study and study--test neural similarity will support or challenge the theories, and will provide insight into the cognitive underpinnings of the spacing effect.
+We recognize that we are relying on reverse inference to test these psychological theories in terms of of the spacing effect \cite{Pold2006,PoldWagn2004}: patterns of neural activity are used to make assumptions about active cognitive processes, as related to prior research.  Since there is so little research on the EEG correlates of the spacing effect, reverse inference provides an initial direction for our analyses.
+To briefly recap the factors that likely influence each theory, deficient processing emphasizes attention and semantic processing, contextual variability emphasizes contextual drift,
+% and study--test matching,
+and study-phase retrieval emphasizes episodic retrieval of the prior presentation during a repetition.
+We expect that both theory- and data-driven analyses of ERPs, oscillatory power, single trials, and
+% study--study and study--test
+neural similarity will support or challenge the theories, and will provide insight into the cognitive underpinnings of the spacing effect.
 
+To briefly introduce the experiments presented here,
 Experiment~1 involved a paired associates memorization task in which participants studied word--image pairs at two points in time in either a spaced or a massed fashion.  After a brief distractor task, a cued recall test was given where participants were required to remember the word originally paired with each image.
 ERP and oscillatory effects were used to assess how attention, semantic processing, and memory retrieval and encoding mechanisms operate under spaced and massed learning and as modulated by subsequent memory.  Neural similarity was performed via dimensionality reduction techniques to attempt to understand memory content and contextual reinstatement.
 Experiment~2 was an extension run using additional study repetition lags and used a similar design as well as similar analyses.
