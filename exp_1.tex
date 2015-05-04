@@ -29,11 +29,15 @@ Institutional Review Board guidelines.
 
 \subsection{Materials}
 
-The experimental stimuli were randomly selected from 1521 common nouns (the PEERS word pool\footnote{http://memory.psych.upenn.edu})
-%\footnote{from the Computational Memory Laboratory at the University of Pennsylvania}
+The experimental stimuli were randomly selected from 1521 common nouns \cite{PEERSwordpool}
+%\footnote{from the Computational Memory Laboratory at the University of Pennsylvania}\footnote{http://memory.psych.upenn.edu}
 and 832 images (two categories: 371 face images and 461 living room scenes).  Face images were shoulder-up photographs taken in front of an off-white background with the center of the face generally in the center of the image \cite{PhilEtal2000}.  Scene images were photographs taken from the SUN image database within the ``Living Room'' category \cite{XiaoEtal2010}.  Words were presented in Courier font (size 24) and all images were cropped to be the same size ($480\times320$ pixels).  Stimuli were presented on a 17-in flat-panel display with a resolution of $1024\times768$ (60 Hz frame rate) placed 1~m in front of the participants.  All portions of the display not occupied by stimuli or text were filled with gray pixels.
 
-The experiment was programmed in MATLAB (versions R2012b and R2014a; The MathWorks, Inc., Natick, MA) using our experimental framework\footnote{https://github.com/warmlogic/expertTrain} and was presented using Psychtoolbox \cite{Brai1997}.
+
+
+The experiment was programmed in MATLAB (versions R2012b and R2014a; The MathWorks, Inc., Natick, MA) using our experimental framework software \cite{expertTrain}
+% \footnote{https://github.com/warmlogic/expertTrain}
+and was presented using Psychtoolbox \cite{Brai1997}.
 
 \subsection{Design}
 
@@ -114,7 +118,9 @@ Finally, in the test phase, participants performed recognition and cued recall t
 
 A 128-channel HydroCel Geodesic Sensor Net\texttrademark{} (GSN~200, v.~$2.1$; \citeNP{Tuck1993}) was used to measure the EEG at the scalp using a central vertex reference (Cz) with a sampling rate of $250$~Hz and a low-pass hardware filter at $100$~Hz (see Figure~\ref{fig:roi}).  The net was connected to an AC-coupled, high-input impedance amplifier ($300$~M$\Omega$, Net~Amps\texttrademark{}; Electrical Geodesics, Inc., Eugene, OR) and recordings were made using the Net Station application.  The electrodes were adjusted until impedance measurements were less than $40$~k$\Omega$.
 
-All data processing steps and analyses were done in MATLAB using in-house scripts\footnote{https://github.com/warmlogic/mat-mvm} and the FieldTrip toolbox \cite{OostEtal2011}.  A high-pass filter at $0.1$~Hz, low-pass filter at $100$~Hz, and a notch filter from $59$--$61$~Hz were applied to the data.  Study and test trials were epoched into $3000$~ms segments, $1$~s before the onset of each stimulus and $2$~s after.  Artifact detection was used to reject particularly noisy epochs, as well as those that exceed an amplitude of $\pm100~\mu$V.  The data were referenced to the average of all channels and individual trials were baseline corrected relative to -$200$~ms to $0$~ms.
+All data processing steps and analyses were done in MATLAB using in-house scripts \cite{mat-mvm}
+%\footnote{https://github.com/warmlogic/mat-mvm}
+and the FieldTrip toolbox \cite{OostEtal2011}.  A high-pass filter at $0.1$~Hz, low-pass filter at $100$~Hz, and a notch filter from $59$--$61$~Hz were applied to the data.  Study and test trials were epoched into $3000$~ms segments, $1$~s before the onset of each stimulus and $2$~s after.  Artifact detection was used to reject particularly noisy epochs, as well as those that exceed an amplitude of $\pm100~\mu$V.  The data were referenced to the average of all channels and individual trials were baseline corrected relative to -$200$~ms to $0$~ms.
 
 % Independent components analysis (ICA) was used to remove blink artifacts and other consistent noise, and artifact detection was run again with more stringent settings to reject noisy trials.
 
