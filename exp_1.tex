@@ -140,11 +140,11 @@ The repetition is therefore the critical trial type to analyze, as this is where
 
 % SPACE001, SPACE017, SPACE019, and SPACE030 had extremely low trial counts
 
-% SPACE039 had really noisy EEG; % or had very noisy EEG ($n=1$)
+% SPACE039 had really noisy EEG but not excluding
 
-Thirty-one participants were included in behavioral analyses.  Fourteen participants were excluded from ERP and time--frequency analyses because they either did not perform the task properly ($n=1$, completely excluded) or had fewer than 10 artifact-free trials in any of the main trial conditions ($n=13$; four had extremely low trial counts and were also excluded from behavioral analyses),
+Thirty-two participants were included in behavioral analyses; this excludes 5 participants because they either did not perform the task properly ($n=1$) or had extremely low trial counts in conditions of interest ($n=4$).  Nine additional participants were excluded from ERP and time--frequency analyses because they had fewer than 10 artifact-free trials in any of the main trial conditions,
 % \footnote{New preprocessing methods are ongoing to retain more trials for future analyses.},
-leaving twenty-three participants in EEG analyses.  Similarity analyses included the twenty-eight participants who had six or more artifact-free pairs of initial presentation--repetition image trials.
+leaving 23 participants in these analyses.  Similarity analyses included the 28 participants who had six or more artifact-free pairs of initial presentation--repetition image trials.
 
 All analyses contingent on subsequent memory are split by whether words were recalled or forgotten after the image was correctly recognized as being old.
 Significant results are reported, and unreported results can be assumed to not be significant.
@@ -152,12 +152,12 @@ When an ANOVA contains a factor with more than two levels, the reported values a
 
 \subsection{Behavioral results}
 
-On average, scenes were rated as more appealing compared to faces ($M=2.99$ vs $M=2.01$) [$t(30)=9.13, p=3.6e^{-10}$].  The average response times during the exposure/rating phase was faster for faces (1027~ms) than scenes (1115~ms) [$t(30)=3.62, p=.0011$].
+On average, scenes were rated as more appealing compared to faces ($M=2.97$ vs $M=1.99$) [$t(31)=9.42, p=1.3e^{-10}$].  The average response times during the exposure/rating phase was faster for faces (1026~ms) than scenes (1121~ms) [$t(31)=3.55, p=.0013$].
 % Because stimuli were presented for 1000~ms, participants had an overall tendency to respond after image offset; this is simply to note that attention is likely paid to the stimulus throughout its presentation, which is relevant to using these trials to train a classifier to discriminate between EEG activity related to faces and scenes.
 
 % During test, recognition discrimination ($d'$) was high, but a spacing effect still occurred: spaced images ($M=3.05, SEM=0.13$) were recognized significantly better than massed images ($M=2.79, SEM=0.13$) [$t(30)=4.74, p=.00005$].  Words from spaced pairs were recalled significantly better than those from massed pairs.
 
-For the test phase, a two-way repeated measures ANOVA was run on image recognition discrimination ($d'$) with factors of spacing and image category.  There was a main effect of spacing [$F(1,30)=17.4, p=.00024, MSE=0.0756$] such that spaced images ($d'=2.95$) were recognized better than massed images ($d'=2.74$), and a main effect of image category [$F(1,30)=104, p=3.05e^{-11}, MSE=0.224$] such that faces ($d'=3.32$) were recognized better than scenes ($d'=2.37$).  An ANOVA with the same factors was run on cued recall hit rate (for old items called ``old'').  There was only a main effect of spacing [$F(1,30)=81.8, p=4.51e^{-10}$] such that spaced words ($M=49.8\%$) were recalled better than massed words ($M=36.5\%$).  Words paired with faces and scenes were recalled at the same rate (faces: $M=43.7\%$; scenes: $M=42.5\%$).  Thus, there are clear spacing effects for both recognition and recall.
+For the test phase, a two-way repeated measures ANOVA was run on image recognition discrimination ($d'$) with factors of spacing and image category.  There was a main effect of spacing [$F(1,31)=19.2, p=.000125, MSE=0.0738$] such that spaced images ($d'=2.96$) were recognized better than massed images ($d'=2.75$), and a main effect of image category [$F(1,31)=111, p=8.78e^{-12}, MSE=0.264$] such that faces ($d'=3.33$) were recognized better than scenes ($d'=2.38$).  An ANOVA with the same factors was run on cued recall hit rate (for old items called ``old'').  There was only a main effect of spacing [$F(1,31)=70.6, p=1.71e^{-9}$] such that spaced words ($M=49.8\%$) were recalled better than massed words ($M=37.1\%$).  Words paired with faces and scenes were recalled at the same rate (faces: $M=44.3\%$; scenes: $M=42.5\%$).  Thus, there are clear spacing effects for both recognition and recall.
 
 \subsection{ERP results}
 
