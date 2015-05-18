@@ -16,3 +16,4 @@ diss*.pdf
 *.cb2
 *.lof
 *.toc
+*synctex*
