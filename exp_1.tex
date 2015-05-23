@@ -29,10 +29,11 @@ Institutional Review Board guidelines.
 
 \subsection{Materials}
 
+\cbstart
 For each participant, the experimental stimuli were randomly selected from 1373 common nouns (length~$\leq$~8 letters) \cite{PEERSwordpool}
 %\footnote{from the Computational Memory Laboratory at the University of Pennsylvania}\footnote{http://memory.psych.upenn.edu}
-and 832 images (two categories: 371 face images and 461 living room scenes).  Face images were shoulder-up photographs taken in front of an off-white background with the center of the face generally in the center of the image \cite{PhilEtal2000}.  Scene images were photographs taken from the SUN image database within the ``Living Room'' category \cite{XiaoEtal2010}.  Words were presented in Courier font (size 24) and all images were cropped to be the same size ($480\times320$~pixels).  Stimuli were presented on a 17-in flat-panel display with a resolution of $1024\times768$ (60~Hz frame rate) placed 1~m in front of the participants.  All portions of the display not occupied by stimuli or text were filled with gray pixels.  Note that we did not control for the memorability of stimuli, which would be affected by dimensions such as word frequency and concreteness, as well as by each participant likely having different associations for each noun and picture.
-
+and 832 images (two categories: 371 face images and 461 living room scenes).  Face images were shoulder-up photographs taken in front of an off-white background with the center of the face generally in the center of the image \cite{PhilEtal2000}.  Scene images were photographs taken from the SUN image database within the ``Living Room'' category \cite{XiaoEtal2010}.  Words were presented in Courier font (size 24) and all images were cropped to be the same size ($480\times320$~pixels).  Stimuli were presented on a 17-in flat-panel display with a resolution of $1024\times768$ (60~Hz frame rate) placed 1~m in front of the participants.  All portions of the display not occupied by stimuli or text were filled with gray pixels.  Note that we did not specifically control for the memorability of stimuli, which would be affected by characteristics such as word frequency and concreteness as well as by each participant likely having different associations for each noun and picture, though all words were common nouns.
+\cbend
 
 The experiment was programmed in MATLAB (versions R2012b and R2014a; The MathWorks, Inc., Natick, MA) using our experimental framework software \cite{expertTrain}
 % \footnote{https://github.com/warmlogic/expertTrain}
@@ -304,13 +305,17 @@ Examining the latency of the LPC peak, there was a significant interaction of sp
 The N1 showed that recalled spaced word repetitions were more negative compared to the other conditions (repetitions of recalled massed words and forgotten spaced and massed words), which can be interpreted to mean that they received the most attention.
 % The pattern for subsequently recalled \textit{vs.} forgotten spaced repetitions indicates that a larger N1 means more attention was paid to that item.
 Massed items are at a disadvantage compared to remembered spaced items, supporting the deficient processing hypothesis.  Because remembered massed items are the least negative but are still remembered later, there are likely other mechanisms that influence memory encoding in addition to attention.  This finding implies that attentional processing affects subsequent memory differently for massed and spaced items.
+\cbstart
+As a reminder, it remains possible that these and other SMEs are due to systematic characteristic differences between subsequently recalled and forgotten stimulus pairs.
+\cbend
 % Regardless, this is an interesting effect because the visual N1 does not typically show subsequent memory effects \cite<e.g.,>{CurrEtal2002,DuarEtal2004,DuarEtal2006}.
 % Even if these attention effects are key, this cannot be the whole story behind the spacing effect; otherwise there would have been a main effect of spacing [$F(1,22)=3.05$, $p=.095$].
 
 % \hl{Actually, there should be a spacing x memory interaction, which we do see interact with presentation... reinterpret.}
 
 The N400 is more negative when semantic processes are engaged to a greater extent.  There was a typical repetition effect showing that voltage decreased with repetition lag, and this interacted with presentation (repetitions attenuate but more so for massed).  This finding implies that semantic processing engages more for spaced than massed repetitions, but not as much as initial presentations.
-Because the significant effect of subsequent memory showed that remembered items have greater negative amplitudes, this reasonably suggests that more semantic processing occurs for remembered items.  Spaced items seem to have an overall processing advantage, or perhaps massed items have an overall disadvantage due their attenuated N400.  This is all in line with the semantic activation hypothesis of \citeA{Chal1993} and the position taken by \citeA{VanSEtal2007}, and therefore supports the deficient processing theory.
+Because the significant effect of subsequent memory showed that remembered items have greater negative amplitudes, this reasonably suggests that more semantic processing occurs for remembered items.
+Spaced items seem to have an overall processing advantage, or perhaps massed items have an overall disadvantage due their attenuated N400.  This is all in line with the semantic activation hypothesis of \citeA{Chal1993} and the position taken by \citeA{VanSEtal2007}, and therefore supports the deficient processing theory.
 
 The interpretation of the LPC effect for short-term repetition paradigms is that it is more positive during the recognition of an item's prior presentation \cite{OlicEtal2000,VanSEtal2007}.  The present results show this positivity for massed repetitions as well as an earlier peak, implying faster retrieval of the initial stimulus presentation compared to spaced repetitions.
 % Though spaced repetitions do not show an effect, an (unreported) analysis over left parietal (more typical for the parietal old/new effect) showed that spaced peaked later

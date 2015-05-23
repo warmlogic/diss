@@ -8,7 +8,7 @@
 \usepackage{float}
 \usepackage{apacite} % \cite<prefix>[suffix]{key1,key2}, \citeA, \citeNP,
                      % \fullcite, \shortcite, \citeyear, \citeauthor, \nocite
-% \usepackage{changebar}
+\usepackage{changebar}
 % \nochangebars
 
 \synctex=1
@@ -113,6 +113,11 @@ To summarize our findings, when studying information for a second time at a spac
 \bibliography{/Users/matt/Library/texmf/bibtex/bib/mvm_tex/mvm}
 %\bibliography{mvm}
 
+% Alice Healy says for APA:
+% Double space (grad school wants single space).
+% Don't abbreviate journal titles.
+% Don't give issue numbers unless issue was separately paginated.
+
 % % Remove issue number from all citations: http://tex.stackexchange.com/questions/170070/biblatex-apa-style-shouldnt-show-issue-number-in-references-for-journal-publica
 % \AtEveryBibitem{\ifentrytype{article}{\clearfield{number}}{}}
 
@@ -121,6 +126,4 @@ To summarize our findings, when studying information for a second time at a spac
 % \input appendixA.tex
 % \input appendixB.tex
 
-
 \end{document}
-
