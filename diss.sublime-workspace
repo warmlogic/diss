@@ -35,7 +35,7 @@
 			"file": "diss.tex",
 			"settings":
 			{
-				"buffer_size": 4107,
+				"buffer_size": 6872,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "specific_aims.tex",
 			"settings":
 			{
-				"buffer_size": 13837,
+				"buffer_size": 13954,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "background_sig.tex",
 			"settings":
 			{
-				"buffer_size": 51152,
+				"buffer_size": 54893,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,15 +59,7 @@
 			"file": "dependent_measures.tex",
 			"settings":
 			{
-				"buffer_size": 19021,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "research_prop_general.tex",
-			"settings":
-			{
-				"buffer_size": 2796,
+				"buffer_size": 25887,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +67,7 @@
 			"file": "exp_1.tex",
 			"settings":
 			{
-				"buffer_size": 77187,
+				"buffer_size": 83836,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,7 +75,7 @@
 			"file": "exp_2.tex",
 			"settings":
 			{
-				"buffer_size": 11187,
+				"buffer_size": 66861,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,7 +83,15 @@
 			"file": "general_discussion.tex",
 			"settings":
 			{
-				"buffer_size": 55,
+				"buffer_size": 27180,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "research_prop_general.tex",
+			"settings":
+			{
+				"buffer_size": 2651,
 				"line_ending": "Unix"
 			}
 		}
@@ -135,7 +135,7 @@
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 643.0
 	},
 	"distraction_free":
 	{
@@ -148,11 +148,11 @@
 	},
 	"file_history":
 	[
+		"/Users/matt/Documents/papers/diss/diss.tex",
 		"/Users/matt/Documents/papers/diss/diss.sublime-project",
 		"/Users/matt/Documents/papers/diss/research_prop_exp.tex",
 		"/Users/matt/Documents/papers/diss/research_prelim.tex",
 		"/Users/matt/Documents/papers/diss/dependent_measures.tex",
-		"/Users/matt/Documents/papers/diss/diss.tex",
 		"/Users/matt/Documents/papers/diss/research_prop_general.tex",
 		"/Users/matt/Documents/papers/diss/specific_aims.tex",
 		"/Users/matt/Documents/papers/diss/background_sig.tex",
@@ -202,134 +202,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"exclud",
-			"RSA",
-			"TSA",
-			"saw an",
-			"supp",
-			"first",
-			"since",
-			"p=0.",
-			"(*). (c) and (f) M",
-			"(c) Grand averages. (b) and (e):",
-			"anova",
-			"pairwise",
-			"3-way",
-			"retention",
-			"massed",
-			"t5",
-			"minute",
-			"standard abb",
-			"twel",
-			"human",
-			"suetal",
-			"kimetal",
-			"desync",
-			"whil",
-			"while",
-			"polyetal2009",
 			"abstract",
-			"it might",
-			"abstract",
-			"mvm",
-			"\\hl",
-			"it may",
-			"EEG",
-			"fmri",
-			"suppression",
-			"fmri",
-			"f",
-			"fmri",
-			"figs",
-			"figs/",
-			"graphic",
+			"key",
+			"width=.30",
+			"width=.19",
 			"cbstart",
-			"pacific",
-			"sql=",
-			"sql =",
-			"insert",
-			"print_de",
-			"print_debug",
-			"dbcon",
-			"print_debug",
-			"class",
-			"print",
-			"loads",
-			"json",
-			"dumps",
-			"%d",
-			"execute",
-			"dbcon",
-			"puttweet",
-			"dbcon",
-			"insert into",
-			"con",
-			"np.prod",
-			"nbins",
-			"np.diff",
-			"nbins",
-			"dbauth",
-			"twitstreamgeo",
-			"hr",
-			"hour",
-			"line",
-			"for txt in activity['",
-			"cleanTextGet",
-			"getwordfreq",
-			"split",
-			"diffthresh",
-			"plt",
-			"clusterthose",
-			"replace",
-			"errlog",
-			"pdb.set",
-			"coordi",
-			"heatmap",
-			"make_hist",
-			".ix",
-			"clusterThose",
-			"scaler",
-			"figsetup",
-			"hist",
-			"_base",
-			"_prev",
-			"nearby",
-			"htmlpars",
-			"json",
-			"streamfrom",
-			"nbins",
-			"make_hist",
-			"df.loc",
-			"found_activity",
-			"distance",
-			"return",
-			"selectactivityfrom",
-			"line",
-			"fri",
-			"make_hist",
-			"dbscan",
-			"compute_dist",
-			"selectSpace",
-			"select_space",
-			"plot_hist",
-			"hist",
-			"savefig",
-			"parse_dates",
-			"parsedates",
-			"sin",
-			"numpy",
-			"falase",
-			"datestr",
-			"parser",
-			"pdb",
-			"data['created_at']",
-			"created_at",
-			"8601",
-			"strftime",
-			"lon",
-			"long",
-			"lat",
-			"select_data"
+			"counter",
+			"memory",
+			"as a remin",
+			"memory",
+			": M",
+			"memory",
+			"changebar",
+			"subseq",
+			"Hz",
+			"length",
+			"leng",
+			"pix",
+			"reflect",
+			"suggest",
+			"reflect",
+			"likely",
+			"reflec",
+			"signify",
+			"reflect",
+			"refle",
+			"sugges",
+			"reflec",
+			"indicat",
+			"reflec",
+			"signify",
+			"reflec",
+			"indicat",
+			"demonstr",
+			"indica",
+			"sugges",
+			"indicat",
+			"likel",
+			"indicat",
+			"suggest",
+			"indicat",
+			"suggest",
+			"indicat",
+			"denot",
+			"while",
+			"being re",
+			"time--freq",
+			"graded",
+			"????",
+			"jittere",
+			"for time--fre",
+			"this impl",
+			"contextual",
+			"\\hl{",
+			"memory",
+			"N400",
+			"participant",
+			"twent",
+			"olic",
+			"eigen",
+			"lag",
+			"defi",
+			"352",
+			"s2_n400",
+			"277",
+			"302",
+			"electrode",
+			"discuss",
+			"reverse",
+			"behavioral",
+			"behavioral res",
+			"alpha",
+			"N1",
+			"particip",
+			"http",
+			"\\hl{",
+			"TODO",
+			"cbstart",
+			"presentation 1",
+			"the contex",
+			"LPC",
+			"impostor",
+			"timer",
+			"LPC",
+			"TODO",
+			"impostor",
+			"LPC",
+			"cbstart",
+			"course credit",
+			"\\hl{",
+			"valid",
+			"~sec",
+			"same except",
+			"LPC",
+			"erp discuss",
+			"frequency",
+			"not so for",
+			"negative sme",
+			"both positive",
+			"in repeti",
+			"hoping",
+			"noise",
+			"three-way",
+			"three",
+			"Mann",
+			"thought about",
+			"alpha",
+			"SME",
+			"beta",
+			"SME",
+			"subsequent",
+			"surpris",
+			"beta",
+			"alpha",
+			"working m",
+			"theta",
+			"EXP2",
+			"EXP1",
+			"EXP",
+			"section{",
+			"support",
+			"LPC",
+			"n400",
+			"peak",
+			"TODO",
+			"peak",
+			"LPC",
+			"N1",
+			"LPC"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -337,6 +337,16 @@
 		"regex": false,
 		"replace_history":
 		[
+			"width=.29",
+			"width=.17",
+			"{-",
+			"section",
+			"time",
+			" $\\times$ ",
+			"13_21",
+			"11_12",
+			"8_10",
+			"img",
 			"p=.",
 			"(*); (c) and (f) m",
 			"(d) Grand averages; (b) and (e)",
@@ -370,15 +380,15 @@
 					"file": "diss.tex",
 					"settings":
 					{
-						"buffer_size": 4107,
+						"buffer_size": 6872,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								943,
-								943
+								2127,
+								2127
 							]
 						],
 						"settings":
@@ -390,7 +400,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 645.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -400,15 +410,15 @@
 					"file": "specific_aims.tex",
 					"settings":
 					{
-						"buffer_size": 13837,
+						"buffer_size": 13954,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								571,
-								571
+								2320,
+								2320
 							]
 						],
 						"settings":
@@ -418,7 +428,7 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 827.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -428,15 +438,15 @@
 					"file": "background_sig.tex",
 					"settings":
 					{
-						"buffer_size": 51152,
+						"buffer_size": 54893,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16116,
-								16116
+								8452,
+								8453
 							]
 						],
 						"settings":
@@ -446,7 +456,7 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2036.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -456,43 +466,15 @@
 					"file": "dependent_measures.tex",
 					"settings":
 					{
-						"buffer_size": 19021,
+						"buffer_size": 25887,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12732,
-								12732
-							]
-						],
-						"settings":
-						{
-							"enable_checkbounce_grammar": false,
-							"enable_checkbounce_spelling": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4256.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "research_prop_general.tex",
-					"settings":
-					{
-						"buffer_size": 2796,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								420,
-								422
+								1748,
+								1748
 							]
 						],
 						"settings":
@@ -508,19 +490,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "exp_1.tex",
 					"settings":
 					{
-						"buffer_size": 77187,
+						"buffer_size": 83836,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18197,
-								18197
+								1520,
+								1520
 							]
 						],
 						"settings":
@@ -532,25 +514,55 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4895.0,
+						"translation.y": 257.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "exp_2.tex",
 					"settings":
 					{
-						"buffer_size": 11187,
+						"buffer_size": 66861,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5276,
-								5276
+								33358,
+								33358
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9542.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "general_discussion.tex",
+					"settings":
+					{
+						"buffer_size": 27180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2394,
+								2394
 							]
 						],
 						"settings":
@@ -560,25 +572,25 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1061.0,
+						"translation.y": 692.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "general_discussion.tex",
+					"file": "research_prop_general.tex",
 					"settings":
 					{
-						"buffer_size": 55,
+						"buffer_size": 2651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								53,
-								53
+								149,
+								149
 							]
 						],
 						"settings":
@@ -631,6 +643,10 @@
 	{
 		"height": 143.0
 	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
 	"replace":
 	{
 		"height": 64.0
@@ -655,7 +671,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 228.0,
 	"status_bar_visible": true
 }
