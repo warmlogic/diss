@@ -10,10 +10,10 @@ auto
 *.log
 *.gz
 *.ttt
-diss*.pdf
 *.*~
 *.cb
 *.cb2
 *.lof
 *.toc
 *synctex*
+diss.pdf
